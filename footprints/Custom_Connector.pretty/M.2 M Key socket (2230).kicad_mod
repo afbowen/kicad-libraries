@@ -824,9 +824,9 @@
 		(uuid "8e8cc256-8223-485b-8250-b97061e88093")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/CM5IO.3dshapes/MTSSD03-67MSW337.STEP"
+	(model "${KICAD_LIB}/3dmodels/CM5IO.3dshapes/MTSSD03-67MSW337.STEP"
 		(offset
-			(xyz -0.05 14.5 1.4)
+			(xyz -0.01 14.5 1.4)
 		)
 		(scale
 			(xyz 1 1 1)

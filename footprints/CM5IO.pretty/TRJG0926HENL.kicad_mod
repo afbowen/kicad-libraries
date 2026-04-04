@@ -489,7 +489,7 @@
 		(uuid "b6da9771-4617-45db-9811-02e044609eaf")
 	)
 	(embedded_fonts no)
-	(model "${GIT}/3dmodels/CM5IO.3dshapes/TRJG0926HENL .stp"
+	(model "${KICAD_LIB}/3dmodels/CM5IO.3dshapes/TRJG0926HENL .stp"
 		(offset
 			(xyz 0 10.5 7)
 		)

@@ -1610,7 +1610,7 @@
 		(uuid "10bdde70-9da4-4c5a-88d7-398706ff1986")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/CM5IO.3dshapes/10164227-1004A1RLF.STEP"
+	(model "${KICAD_LIB}/3dmodels/CM5IO.3dshapes/10164227-1004A1RLF.STEP"
 		(offset
 			(xyz -0.5 21.5 0)
 		)
@@ -1621,7 +1621,7 @@
 			(xyz -0 -0 -90)
 		)
 	)
-	(model "${KIPRJMOD}/../../components/3dmodels/CM5IO.3dshapes/10164227-1004A1RLF.STEP"
+	(model "${KICAD_LIB}/3dmodels/CM5IO.3dshapes/10164227-1004A1RLF.STEP"
 		(offset
 			(xyz 33.5 21.5 0)
 		)

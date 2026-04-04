@@ -223,7 +223,7 @@
 		(uuid "b19cf565-7dd8-4d0f-b6f0-2abd4c94e54c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/SN74LVC1G07DBVR.step"
+	(model "${KICAD_LIB}/3dmodels/SN74LVC1G07DBVR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -236,7 +236,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/ETQ-P4M2R2KFM.step"
+	(model "${KICAD_LIB}/3dmodels/ETQ-P4M2R2KFM.step"
 		(offset
 			(xyz 0 -1.5 0)
 		)

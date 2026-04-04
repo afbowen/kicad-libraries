@@ -265,7 +265,7 @@
 		(uuid "76c88b0e-db80-43d1-a527-5e19dc766c38")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/INA226AQDGSRQ1.stp"
+	(model "${KICAD_LIB}/3dmodels/INA226AQDGSRQ1.stp"
 		(offset
 			(xyz 0 0 0.7)
 		)

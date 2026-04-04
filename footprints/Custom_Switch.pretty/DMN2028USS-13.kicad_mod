@@ -253,7 +253,7 @@
 		(uuid "4619fce3-ddaa-4d05-91eb-f7b27e003247")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/DMN2028USS-13.stp"
+	(model "${KICAD_LIB}/3dmodels/DMN2028USS-13.stp"
 		(offset
 			(xyz 0 0 0)
 		)

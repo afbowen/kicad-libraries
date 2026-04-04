@@ -499,7 +499,7 @@
 		(uuid "f9eefa8f-1e5a-4ca5-9d9c-01150f569d57")
 	)
 	(embedded_fonts no)
-	(model "${GIT}/3dmodels/CM5IO.3dshapes/FH12-22S-0.5SH.stp"
+	(model "${KICAD_LIB}/3dmodels/CM5IO.3dshapes/FH12-22S-0.5SH.stp"
 		(offset
 			(xyz 16.45 -10.6 -128)
 		)

@@ -437,7 +437,7 @@
 		(uuid "b5d04279-8975-461b-a463-a15e3f410a4e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/CM5IO.3dshapes/5033981892.STEP"
+	(model "${KICAD_LIB}/3dmodels/CM5IO.3dshapes/5033981892.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

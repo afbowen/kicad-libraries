@@ -235,7 +235,7 @@
 		(uuid "8c5cc1ff-6c2f-4ee1-8af4-cb3284c2be45")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../components/3dmodels/VS-12CWQ04FN-M3.stp"
+	(model "${KICAD_LIB}/3dmodels/VS-12CWQ04FN-M3.stp"
 		(offset
 			(xyz 0 2.5 0)
 		)
