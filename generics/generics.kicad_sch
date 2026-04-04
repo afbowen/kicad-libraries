@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ff075d90-2677-48ca-91fd-a3a441ca4e63")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 182.88 78.74)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13f767f8-b023-4f49-84c1-5b2142ffb7e1")
+		(property "Sheetname" "Res 0805"
+			(at 182.88 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "res_0805.kicad_sch"
+			(at 182.88 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 43.18)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29ede075-9c62-47c1-828d-0ebeb5c429ed")
+		(property "Sheetname" "Connector"
+			(at 196.85 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 196.85 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 109.22)
+		(size 22.86 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ade81d9-8575-4e61-ba1a-89956bff33f7")
+		(property "Sheetname" "Inductor"
+			(at 160.02 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inductor.kicad_sch"
+			(at 160.02 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 34.29)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6aa6e9a8-58fe-459e-86e3-af81ed2015b7")
+		(property "Sheetname" "Cap Polarized"
+			(at 67.31 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_polarized.kicad_sch"
+			(at 67.31 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 60.96)
+		(size 52.07 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78b474d1-d813-4531-98d3-0df205398ee6")
+		(property "Sheetname" "Cap 0603"
+			(at 74.93 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_0603.kicad_sch"
+			(at 74.93 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 58.42)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9c3687f-ffca-4c13-806c-b078a5c187c5")
+		(property "Sheetname" "Res 0603"
+			(at 146.05 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "res_0603.kicad_sch"
+			(at 146.05 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 123.19)
+		(size 52.07 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc8a1445-9d1d-43d6-bed8-e630a9984c40")
+		(property "Sheetname" "Cap 0805"
+			(at 63.5 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_0805.kicad_sch"
+			(at 63.5 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "common_comps"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
