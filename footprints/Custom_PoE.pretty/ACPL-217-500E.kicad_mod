@@ -1,0 +1,243 @@
+(footprint "ACPL-217-500E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SO-04")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -3.5 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "75efdacc-5b79-479e-9a02-c1fce8698aab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOIC127P700X242-4N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9b52441e-3c1f-4ab9-a9b1-8d3dd1ee4a7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8b58020-7b60-4dc8-8c49-66a9ad0f4466")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d43ad33-ab80-4ef2-9990-27153bb9bf92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.05 -1.31)
+		(end -2.2 -1.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a8ec668-8204-42b6-84de-5060af4f3f64")
+	)
+	(fp_line
+		(start -1.85 -1.3)
+		(end 1.85 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14dec743-695d-4936-bb54-3b46172a2908")
+	)
+	(fp_line
+		(start -1.85 1.3)
+		(end -1.85 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6670fe51-ee59-4316-b746-56abf3db2c61")
+	)
+	(fp_line
+		(start 1.85 -1.3)
+		(end 1.85 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0b9c51c-e5d6-4c8e-b445-0ac079732d84")
+	)
+	(fp_line
+		(start 1.85 1.3)
+		(end -1.85 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23d7c9ac-159b-4f9f-9ae9-a5522367f0c8")
+	)
+	(fp_line
+		(start -4.3 -1.7)
+		(end 4.3 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d9f9d4f-0c9f-4e2a-b017-64491b7137c9")
+	)
+	(fp_line
+		(start -4.3 1.7)
+		(end -4.3 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6467d925-acc0-4c34-af4b-3525194de8a9")
+	)
+	(fp_line
+		(start 4.3 -1.7)
+		(end 4.3 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac08a7c5-5d89-410e-bd0b-dfa40f03277f")
+	)
+	(fp_line
+		(start 4.3 1.7)
+		(end -4.3 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ea6d0f9-2bf1-4030-a4ad-318ec9b5d617")
+	)
+	(fp_line
+		(start -2.2 -1.3)
+		(end 2.2 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1581d4e9-99a1-47a5-8e42-217717a6f5fd")
+	)
+	(fp_line
+		(start -2.2 -0.03)
+		(end -0.93 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7ce737b-9785-4c3a-9422-9dd6fb5c6706")
+	)
+	(fp_line
+		(start -2.2 1.3)
+		(end -2.2 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4fff177c-efae-4329-a06c-962ce5f6905d")
+	)
+	(fp_line
+		(start 2.2 -1.3)
+		(end 2.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21c85c87-62b5-4af0-bd8f-f04367163c8f")
+	)
+	(fp_line
+		(start 2.2 1.3)
+		(end -2.2 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2c7054a-3063-4db4-ac78-403545010ba2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 3.5 0)
+		(layer "F.Fab")
+		(uuid "8178c640-5793-4798-be9d-3f1278b89300")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.125 -0.635 90)
+		(size 0.65 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "170e0eb8-c0aa-47a4-834d-2ad7dea8348d")
+	)
+	(pad "2" smd rect
+		(at -3.125 0.635 90)
+		(size 0.65 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7a1d18a-dd67-4fab-98d1-9005882de575")
+	)
+	(pad "3" smd rect
+		(at 3.125 0.635 90)
+		(size 0.65 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b5545d98-7179-4bae-a718-8effabe1f9e9")
+	)
+	(pad "4" smd rect
+		(at 3.125 -0.635 90)
+		(size 0.65 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c0efc92-9c12-40f9-af1d-6f539a9dd0db")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/ACPL-217-500E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

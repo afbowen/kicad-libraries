@@ -13,7 +13,7 @@ of KiCad projects. To do so...
 1. Clone this repository into your project repo.
    ```
    cd /path/to/kicad_project_repo
-   git submodule add https://github.com/afbowen/kicad-libraries.git
+   git submodule add git@github.com:<user>/kicad-libraries.git
    git commit -m "Add kicad-libraries submodule"
    ```
 

@@ -165,7 +165,7 @@
 		(uuid "a61035f1-cf0f-4632-b1cb-f03e76a6f593")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/FBMH3225HM102NT.step"
+	(model "${KICAD_LIB}/3dmodels/FBMH3225HM102NT.step"
 		(offset
 			(xyz 0 -1.4 1.25)
 		)
