@@ -146,18 +146,62 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 30.48 57.15)
+		(end 91.44 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 307dad2f-7ae1-4688-a7b1-c9d5792eab9c)
+	)
+	(rectangle
+		(start 30.48 90.17)
+		(end 91.44 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9078f213-88f9-4ab2-9078-9f87223dcb93)
+	)
+	(text "25V"
+		(exclude_from_sim no)
+		(at 34.036 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3dff3bcc-c7d5-4e0f-9455-5eccfa506f3e")
+	)
+	(text "35V"
+		(exclude_from_sim no)
+		(at 33.782 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "549d923b-7210-49df-b42c-b105b95fceb5")
+	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 95.25 74.93 0)
+		(at 46.99 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c0104b4-64ad-4e7d-8c8f-a409c6c25faa")
-		(property "Reference" "C3"
-			(at 102.362 73.406 0)
+		(uuid "0ae171ba-9725-41b7-a352-a15f988874f6")
+		(property "Reference" "C8"
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,8 +209,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 102.362 75.946 0)
+		(property "Value" "1uF"
+			(at 54.102 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +219,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +237,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +246,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K3RACTU"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +255,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +264,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +273,131 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 95.25 74.93 0)
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5d6ef53-6ae8-4c46-9399-b772ee225559")
+		)
+		(pin "1"
+			(uuid "2920ffa5-5ebe-4ba9-a795-69775191aa3a")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c0104b4-64ad-4e7d-8c8f-a409c6c25faa")
+		(property "Reference" "C3"
+			(at 40.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 42.672 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K3RACTU"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +412,7 @@
 			(uuid "9f000742-4262-4e25-a7a1-4ed24c8c63f5")
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C3")
 					(unit 1)
@@ -254,7 +422,131 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 64.77 72.39 0)
+		(at 34.29 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a15eb89-2d84-47b8-9aca-3d2a50ac9b14")
+		(property "Reference" "C7"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 41.402 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GMK107B7104KAHT"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "AEC-Q200"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ab72f58-f84d-4d9c-a7a0-305b15191621")
+		)
+		(pin "1"
+			(uuid "74e259b6-1ea5-40d1-bfa1-8c437ec5c081")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -264,7 +556,7 @@
 		(fields_autoplaced yes)
 		(uuid "4076f1ab-86b4-4f39-bad5-27a47166f6ba")
 		(property "Reference" "C21"
-			(at 62.23 71.1262 0)
+			(at 73.66 78.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,7 +565,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 62.23 73.6662 0)
+			(at 73.66 81.2862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +574,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.77 72.39 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 72.39 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +592,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 72.39 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +601,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61E475KE11D"
-			(at 64.77 72.39 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +610,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 64.77 72.39 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +625,7 @@
 			(uuid "11aa1e52-cc9b-48ab-97e9-0b4f0cd6aa25")
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C21")
 					(unit 1)
@@ -343,15 +635,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 67.31 88.9 0)
+		(at 44.45 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "92f3d209-0e03-46d6-b16d-2b9b2f6ab531")
-		(property "Reference" "C2"
-			(at 60.452 87.884 0)
+		(uuid "5e4fd5f0-1c45-4929-ad6e-cb216a6e47c6")
+		(property "Reference" "C6"
+			(at 51.308 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,7 +653,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 59.69 90.17 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,8 +661,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 67.31 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 88.9 0)
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,8 +679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 88.9 0)
+		(property "Description" ""
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,8 +688,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61E225KA12D"
-			(at 67.31 88.9 0)
+		(property "MPN" "GRM188R6YA225KA12D"
+			(at 44.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +698,148 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 67.31 88.9 0)
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "85"
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "411a1897-28c9-4f4c-bd64-51f8a291722c")
+		)
+		(pin "1"
+			(uuid "d7a36952-0540-4f4e-ab37-1b64d7042405")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f3d209-0e03-46d6-b16d-2b9b2f6ab531")
+		(property "Reference" "C2"
+			(at 56.642 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E225KA12D"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "85"
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +854,7 @@
 			(uuid "bdf31f68-9520-40a7-806b-7a6c9c1a0b83")
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C2")
 					(unit 1)
@@ -430,7 +864,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 92.71 0)
+		(at 35.56 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -439,7 +873,7 @@
 		(dnp no)
 		(uuid "ba060378-3473-47b6-919c-048e8f2a845d")
 		(property "Reference" "C5"
-			(at 90.932 91.186 0)
+			(at 42.672 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,7 +882,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 90.932 93.726 0)
+			(at 42.672 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +891,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -475,7 +909,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +918,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R8BB473"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +927,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,7 +936,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +945,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 83.82 92.71 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +960,7 @@
 			(uuid "f4f20122-e108-4280-bb77-36c0295185b9")
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C5")
 					(unit 1)

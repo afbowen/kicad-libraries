@@ -216,7 +216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "CR 7A, Isat 8A, Shielded, 20%, 32mOhm"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -250,9 +250,97 @@
 			(uuid "37d21168-1897-457a-a08f-f4bbc149631f")
 		)
 		(instances
-			(project ""
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/4ade81d9-8575-4e61-ba1a-89956bff33f7"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 64.77 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c492dc-307a-4fb8-8c96-ab02cd4785a9")
+		(property "Reference" "L2"
+			(at 66.04 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 66.04 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_DCDC:SRU5028-3R3Y"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CR 2.8A, Isat 2.1A, Shielded, 30%, 24mOhm"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRU5028-3R3Y"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Bourns Inc."
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9e1939d-00b0-4666-a617-445c06f157ea")
+		)
+		(pin "2"
+			(uuid "9eb8e086-2451-49c2-8ac2-918b64a4ff30")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/4ade81d9-8575-4e61-ba1a-89956bff33f7"
+					(reference "L2")
 					(unit 1)
 				)
 			)

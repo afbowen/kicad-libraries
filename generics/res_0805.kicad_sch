@@ -224,7 +224,7 @@
 			(uuid "b5be7395-9881-4c7c-907b-eb4512dce15b")
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/13f767f8-b023-4f49-84c1-5b2142ffb7e1"
 					(reference "R5")
 					(unit 1)

@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "7")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "8")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "4")
 				)
@@ -166,7 +166,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "6")
 				)
@@ -208,7 +208,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "2")
 				)
@@ -250,7 +250,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "5")
 				)
@@ -292,7 +292,7 @@
 			)
 		)
 		(instances
-			(project "common_comps"
+			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "3")
 				)
