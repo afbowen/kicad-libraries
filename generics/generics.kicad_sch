@@ -132,6 +132,48 @@
 		)
 	)
 	(sheet
+		(at 109.22 167.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a4ebc0d-ea4a-4d0b-b958-98f275950e36")
+		(property "Sheetname" "MOSFET"
+			(at 109.22 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 109.22 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.31 34.29)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -258,6 +300,48 @@
 		)
 	)
 	(sheet
+		(at 210.82 121.92)
+		(size 46.99 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2788dee-312d-4339-8482-6274109ce05f")
+		(property "Sheetname" "Diode"
+			(at 210.82 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diode.kicad_sch"
+			(at 210.82 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 123.19)
 		(size 52.07 30.48)
 		(exclude_from_sim no)
@@ -295,6 +379,48 @@
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 167.64)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd31fcbb-3763-4427-bc93-82ea9abded6b")
+		(property "Sheetname" "Cap 1206"
+			(at 57.15 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_1206.kicad_sch"
+			(at 57.15 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "11")
 				)
 			)
 		)

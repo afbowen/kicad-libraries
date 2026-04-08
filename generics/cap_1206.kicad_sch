@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a0e1eac4-f098-4b66-a0b2-66359a2b4cac")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 27.94 22.86)
+		(end 88.9 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dfa1f520-b703-4dcc-8cd4-28d7fdc6464f)
+	)
+	(text "10V"
+		(exclude_from_sim no)
+		(at 31.496 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "664e621e-2350-463c-a153-16066ef06e4d")
+	)
+)

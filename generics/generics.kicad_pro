@@ -440,6 +440,18 @@
     [
       "29ede075-9c62-47c1-828d-0ebeb5c429ed",
       "Connector"
+    ],
+    [
+      "e2788dee-312d-4339-8482-6274109ce05f",
+      "Diode"
+    ],
+    [
+      "5a4ebc0d-ea4a-4d0b-b958-98f275950e36",
+      "MOSFET"
+    ],
+    [
+      "fd31fcbb-3763-4427-bc93-82ea9abded6b",
+      "Cap 1206"
     ]
   ],
   "text_variables": {}
