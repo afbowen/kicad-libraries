@@ -314,7 +314,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 77.47 38.1 0)
+		(at 72.39 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -323,7 +323,7 @@
 		(fields_autoplaced yes)
 		(uuid "278c4d1c-de38-40bf-b6ac-44f8c2e573d2")
 		(property "Reference" "R6"
-			(at 80.01 36.8299 0)
+			(at 74.93 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,7 +332,7 @@
 			)
 		)
 		(property "Value" "47.5kΩ"
-			(at 80.01 39.3699 0)
+			(at 74.93 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +341,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,7 +350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,7 +359,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +368,7 @@
 			)
 		)
 		(property "MPN" "MCT06030C4752FP500"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +377,7 @@
 			)
 		)
 		(property "Mfr" "Vishay"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +386,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +395,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 77.47 38.1 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +723,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 77.47 46.99 0)
+		(at 62.23 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -731,7 +731,7 @@
 		(dnp no)
 		(uuid "a9346b9d-0054-4e77-8288-0c469bff3a10")
 		(property "Reference" "R17"
-			(at 78.994 46.482 0)
+			(at 63.754 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +740,7 @@
 			)
 		)
 		(property "Value" "22.1kΩ"
-			(at 78.994 49.022 0)
+			(at 63.754 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +749,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 46.99 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,7 +758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 46.99 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +767,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 77.47 46.99 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +776,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0722K1L"
-			(at 77.47 46.99 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +785,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 77.47 46.99 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +794,7 @@
 			)
 		)
 		(property "Pwr" "1/10W"
-			(at 77.47 46.99 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +931,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 64.77 46.99 0)
+		(at 49.53 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -940,7 +940,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3b8a8a0-1001-40d2-a3a7-3c39ee9ced4c")
 		(property "Reference" "R2"
-			(at 67.31 45.7199 0)
+			(at 52.07 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,7 +949,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 67.31 48.2599 0)
+			(at 52.07 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +958,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +985,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +994,7 @@
 			)
 		)
 		(property "Mfr" "YAGEO"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 64.77 46.99 0)
+			(at 49.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,6 +1239,102 @@
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/a9c3687f-ffca-4c13-806c-b078a5c187c5"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 85.09 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff57587-ab9a-4587-b7fd-0eafa73cbc52")
+		(property "Reference" "R27"
+			(at 87.63 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 87.63 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "YAGEO"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pwr" "1/10W"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28e85fdf-177a-4438-95c9-62298d05c823")
+		)
+		(pin "1"
+			(uuid "38eaf49f-b07b-4f84-95d4-413e570b0378")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/a9c3687f-ffca-4c13-806c-b078a5c187c5"
+					(reference "R27")
 					(unit 1)
 				)
 			)

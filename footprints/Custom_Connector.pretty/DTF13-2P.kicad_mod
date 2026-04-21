@@ -1,0 +1,228 @@
+(footprint "DTF13-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.081275 -10.622715 0)
+		(layer "F.SilkS")
+		(uuid "820ef698-085e-4875-9ea3-3f2092915f5d")
+		(effects
+			(font
+				(size 2.000512 2.000512)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_DTF13-2P"
+		(at 2.542475 29.238125 0)
+		(layer "F.Fab")
+		(uuid "fc7721f0-f80b-4080-86f3-ce5572b5a43e")
+		(effects
+			(font
+				(size 2.001929 2.001929)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9739af7b-7b69-43c4-aaaf-1c93f21a4d44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4246eaf-3b18-4dd9-97df-fdc9e4b69cd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11.76 -4.13)
+		(end 11.76 -4.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da3525b1-4f70-491d-b855-64bac95105b8")
+	)
+	(fp_line
+		(start -11.76 25.67)
+		(end -11.76 -4.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "014d1e92-2d02-42f2-a535-75d84b1909d1")
+	)
+	(fp_line
+		(start 11.76 -4.13)
+		(end 11.76 25.67)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "848714b5-f94c-4f5b-bba2-7bb62e9f021f")
+	)
+	(fp_line
+		(start 11.76 25.67)
+		(end -11.76 25.67)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "930c3680-8bfb-41cd-8b54-309b314170cc")
+	)
+	(fp_circle
+		(center -2.73 -5.2)
+		(end -2.48 -5.2)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "063585f4-ed39-4b75-8010-773bdb767af6")
+	)
+	(fp_line
+		(start -12.1 -4.5)
+		(end 12.1 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7574043d-57a1-4b4f-9b49-d14a6ac808ff")
+	)
+	(fp_line
+		(start -12.1 26)
+		(end -12.1 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5aec36bf-c9ad-4f45-9c62-e6f25e083232")
+	)
+	(fp_line
+		(start 12.1 -4.5)
+		(end 12.1 26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "841719ef-578e-4dd0-bb88-6b2fde63ff34")
+	)
+	(fp_line
+		(start 12.1 26)
+		(end -12.1 26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a85a9920-44a1-4013-96f5-bfdfab0e05c8")
+	)
+	(fp_line
+		(start -11.76 -4.13)
+		(end 11.76 -4.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0744245-0bce-4371-9686-258adf25cbff")
+	)
+	(fp_line
+		(start -11.76 25.67)
+		(end -11.76 -4.13)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fbc64b6-0f3f-4a64-97e9-eb3835ce449f")
+	)
+	(fp_line
+		(start 11.76 -4.13)
+		(end 11.76 25.67)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13d9bdb2-7947-4d0d-aeea-91c829daf2bb")
+	)
+	(fp_line
+		(start 11.76 25.67)
+		(end -11.76 25.67)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9020955-11c9-4fcd-a60a-28ddcc00462b")
+	)
+	(pad "" np_thru_hole circle
+		(at -8.585 0)
+		(size 2.16 2.16)
+		(drill 2.16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "36797601-935b-4df1-a21c-dbc296b4bbf0")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.585 0)
+		(size 2.16 2.16)
+		(drill 2.16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "509723db-ff89-4202-a6ed-efa666357292")
+	)
+	(pad "1" thru_hole rect
+		(at -2.73 0)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6d740953-c314-4d75-968d-84c0dbcacf81")
+	)
+	(pad "2" thru_hole circle
+		(at 2.73 0)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6a4772d0-42a4-4296-a944-88b283f3d1a6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/DTF13-2P.stp"
+		(offset
+			(xyz 0 -23.75 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

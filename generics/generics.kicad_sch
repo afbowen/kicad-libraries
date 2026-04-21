@@ -132,6 +132,48 @@
 		)
 	)
 	(sheet
+		(at 35.56 92.075)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53a7e3ec-6daa-493f-a37d-2dec0d6fcdc6")
+		(property "Sheetname" "Header"
+			(at 35.56 91.3634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "header.kicad_sch"
+			(at 35.56 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 167.64)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
