@@ -182,6 +182,18 @@
 		)
 		(uuid 70a71c2b-a2ca-48fc-9e7a-09142d0ac0bd)
 	)
+	(rectangle
+		(start 31.75 119.38)
+		(end 92.71 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86f89ad0-7c43-4151-9978-fbb6b7ff4292)
+	)
 	(text "10V"
 		(exclude_from_sim no)
 		(at 35.306 23.368 0)
@@ -201,6 +213,16 @@
 			)
 		)
 		(uuid "99f91220-fae2-4556-a501-68c60f8fdf17")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 35.56 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bbe5980f-2369-4e93-83f3-90d5dde0a771")
 	)
 	(text "25V"
 		(exclude_from_sim no)
@@ -526,6 +548,139 @@
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/fc8a1445-9d1d-43d6-bed8-e630a9984c40"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf969914-c54a-4629-9b86-9d9b48cbe488")
+		(property "Reference" "C10"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C1711"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_Class" "X7R"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bb72bfb-8820-4bdc-8b32-3c8ea92d69c4")
+		)
+		(pin "1"
+			(uuid "1632d473-3543-4fd7-a91d-d9361095562d")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/fc8a1445-9d1d-43d6-bed8-e630a9984c40"
+					(reference "C10")
 					(unit 1)
 				)
 			)

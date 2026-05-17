@@ -147,6 +147,18 @@
 		)
 	)
 	(rectangle
+		(start 30.48 124.46)
+		(end 91.44 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1033f122-82ef-413d-9079-6621bb22d2ca)
+	)
+	(rectangle
 		(start 30.48 57.15)
 		(end 91.44 88.9)
 		(stroke
@@ -189,6 +201,16 @@
 			)
 		)
 		(uuid "549d923b-7210-49df-b42c-b105b95fceb5")
+	)
+	(text "50V"
+		(exclude_from_sim no)
+		(at 33.274 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b80d5cba-22b7-44c9-9f5f-56f9cf3c3bfb")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -963,6 +985,139 @@
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d03ba827-0525-45f9-80a3-0283a947a079")
+		(property "Reference" "C9"
+			(at 40.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 40.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC "
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C1591"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric_Class" "X7R"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c9217b0-b6cf-486e-8f17-aab6c7c0e4c1")
+		)
+		(pin "1"
+			(uuid "6bc8367e-4111-4b86-9567-a15c631b314d")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
+					(reference "C9")
 					(unit 1)
 				)
 			)
