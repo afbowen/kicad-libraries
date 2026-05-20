@@ -2004,46 +2004,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "V0.0"
-			(at -12.954 -13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Inc."
-			(at 9.144 -13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.86 mm"
-			(at -3.302 -13.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at -24.638 -7.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MPN" "DS04-254-2-02BK-SMT"
 			(at 25.908 -13.462 0)
 			(effects
@@ -2055,6 +2015,24 @@
 		)
 		(property "Mfr" "CUI"
 			(at -12.446 -18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C3312172"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD,P=2.54mm"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
