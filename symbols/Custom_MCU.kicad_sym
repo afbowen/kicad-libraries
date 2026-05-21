@@ -71,6 +71,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PN" "C2944070"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "esp32 espressif WiFi Bluetooth LE"
 			(at 0 0 0)
 			(effects

@@ -168,7 +168,7 @@
 			)
 		)
 		(symbol "A1230LLTR-T_1_1"
-			(pin unspecified line
+			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
 				(name "VCC"
@@ -186,7 +186,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "OUTPUTA"
@@ -204,7 +204,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "OUTPUTB"
@@ -222,7 +222,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "GND"
@@ -240,7 +240,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "NC"
@@ -258,7 +258,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 40.64 -2.54 180)
 				(length 7.62)
 				(name "NC"
@@ -276,7 +276,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 40.64 -5.08 180)
 				(length 7.62)
 				(name "NC"
@@ -294,7 +294,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 40.64 -7.62 180)
 				(length 7.62)
 				(name "NC"
@@ -1486,7 +1486,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Sensor:MAX31856MUD+T"
-			(at 0 0 0)
+			(at -15.748 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1496,7 @@
 			)
 		)
 		(property "Datasheet" "MAX31856MUD+T"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1506,7 @@
 			)
 		)
 		(property "Description" "K-Type Thermocouple ADC"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1515,7 @@
 			)
 		)
 		(property "MPN" "MAX31856MUD+T"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1524,7 @@
 			)
 		)
 		(property "Mfr" "Analog Devices"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(property "JLCPCB_PN" "C2653162"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1542,7 @@
 			)
 		)
 		(property "Package" "TSSOP-14"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1551,7 @@
 			)
 		)
 		(property "Max_Temp" "125℃"
-			(at 0 0 0)
+			(at -16.51 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1626,9 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+		)
+		(symbol "MAX31856MUD+T_1_1"
+			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
 				(name "AGND"
@@ -1644,7 +1646,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "BIAS"
@@ -1662,7 +1664,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "T-"
@@ -1680,7 +1682,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "T+"
@@ -1698,7 +1700,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "AVDD"
@@ -1716,7 +1718,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -12.7 0)
 				(length 7.62)
 				(name "DNC"
@@ -1734,7 +1736,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "*DRDY"
@@ -1752,7 +1754,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 45.72 0 180)
 				(length 7.62)
 				(name "DGND"
@@ -1770,7 +1772,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -2.54 180)
 				(length 7.62)
 				(name "*FAULT"
@@ -1788,7 +1790,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -5.08 180)
 				(length 7.62)
 				(name "SDI"
@@ -1806,7 +1808,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -7.62 180)
 				(length 7.62)
 				(name "SDO"
@@ -1824,7 +1826,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -10.16 180)
 				(length 7.62)
 				(name "SCK"
@@ -1842,7 +1844,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -12.7 180)
 				(length 7.62)
 				(name "*CS"
@@ -1860,7 +1862,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 45.72 -15.24 180)
 				(length 7.62)
 				(name "DVDD"

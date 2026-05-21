@@ -29,7 +29,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TPD2E001DRLR:SOT50P160X60-5N"
+		(property "Footprint" "Custom_Protection:TPD2E001DRLR"
 			(at 5.334 -16.002 0)
 			(effects
 				(font
