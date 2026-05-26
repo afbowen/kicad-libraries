@@ -6,8 +6,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 16.51 7.62 0)
+		(property "Reference" "F"
+			(at 5.334 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "01000063Z"
-			(at 16.51 5.08 0)
+			(at 5.334 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mini Auto Fuse Holder"
+		(property "Description" "Mini Auto Fuse Holder (20A)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72,6 +72,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PN" "C3206200 "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "20A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Height" "11.2"
 			(at 16.51 -394.92 0)
 			(effects
@@ -79,15 +97,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" "C3206200 "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -168,6 +177,328 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0451001"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Protection:0451S001"
+			(at -1.778 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Fuse (1A)"
+			(at 19.558 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0451001.MRL"
+			(at 4.064 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Littelfuse"
+			(at -4.572 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C3099"
+			(at 5.588 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2410"
+			(at 17.018 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 11.938 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0451001_0_1"
+			(rectangle
+				(start -1.27 0.508)
+				(end 1.27 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0451001_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "178.6764.0001"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 5.588 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Value" "178.6764.0001"
+			(at 5.588 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_Protection:17867640001"
+			(at 16.51 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/mini/littelfuse-fuseholder-mini-fl1-pcb-mount.pdf"
+			(at 16.51 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive Mini Fuse Holder (30A)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "178.6764.0001"
+			(at 16.51 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Littelfuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C142933"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15"
+			(at 16.51 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Current" "30A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "178.6764.0001_0_1"
+			(rectangle
+				(start -1.27 0.508)
+				(end 1.27 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "178.6764.0001_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

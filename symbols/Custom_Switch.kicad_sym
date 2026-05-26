@@ -1051,7 +1051,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Switch:CSD19505KTT"
-			(at 0 0 0)
+			(at 19.558 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1079,7 @@
 			)
 		)
 		(property "MPN" "CSD19505KTT "
-			(at 0 0 0)
+			(at 19.812 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Mfr" "Texas Instruments"
-			(at 0 0 0)
+			(at 18.542 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 			)
 		)
 		(property "JLCPCB_PN" "C2867099"
-			(at 0 0 0)
+			(at 21.336 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1108,7 @@
 			)
 		)
 		(property "Package" "TO-263-3 "
-			(at 0 0 0)
+			(at 20.574 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1117,7 @@
 			)
 		)
 		(property "Vgs" "3.2V"
-			(at 0 0 0)
+			(at 25.908 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1126,7 @@
 			)
 		)
 		(property "Vds" "80V"
-			(at 0 0 0)
+			(at 19.558 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1135,7 @@
 			)
 		)
 		(property "Pd" "300W"
-			(at 0 0 0)
+			(at 21.844 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(property "Rds" "3.8mΩ"
-			(at 0 0 0)
+			(at 34.544 -2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,6 +1741,455 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DMN6068SE-13"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MOSFET"
+			(at -33.528 -12.319 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DMN6068SE-13"
+			(at -33.528 -16.764 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_Switch:DMN6068SE-13"
+			(at -44.958 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DMN6068SE-13"
+			(at -44.958 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-ch FET, 4.1A"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN6068SE-13 "
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Diodes Incorporated"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C209902"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-223"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vgs" "3V"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" "60V"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pd" "2W"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" "5.6A"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rds" "68mΩ@10V"
+			(at -27.432 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DMN6068SE-13"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT223-STD-DMN6068_DIO SOT223-STD-DMN6068_DIO-M SOT223-STD-DMN6068_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DMN6068SE-13_0_0"
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -1.27 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 3.175) (xy -0.508 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.54) (xy -0.508 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.54) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.762) (xy -0.508 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -0.508 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.905) (xy -0.508 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 0) (xy 0.762 0.762) (xy 0.762 -0.762) (xy -0.254 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 2.54)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 -2.54)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.508) (xy 1.778 0.254)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.508) (xy 2.032 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.508) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.508) (xy 2.032 -0.254) (xy 3.048 -0.254) (xy 2.54 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy -0.508 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 0.508) (xy 2.54 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.762) (xy 3.048 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
