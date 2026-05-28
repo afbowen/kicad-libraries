@@ -555,7 +555,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD2E001DRLR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C150526"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-553-5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max_Temperature" "85°C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -567,7 +612,7 @@
 		(symbol "TPD2E001DRLR_0_0"
 			(rectangle
 				(start -12.7 5.08)
-				(end 12.7 -2.54)
+				(end 12.7 -6.096)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -641,6 +686,26 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPD2E001DRLR_1_0"
+			(pin no_connect line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
