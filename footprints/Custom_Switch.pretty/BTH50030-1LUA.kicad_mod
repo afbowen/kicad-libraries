@@ -1,4 +1,4 @@
-(footprint "IFX-PG-HSOF-8-6-V"
+(footprint "BTH50030-1LUA"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -555,8 +555,8 @@
 		(uuid "867bcc54-b2b4-4881-9054-d58b735948df")
 	)
 	(pad "9" smd rect
-		(at 4.945 0 90)
-		(size 3 2)
+		(at 2.71 0 90)
+		(size 10 7.65)
 		(layers "F.Cu")
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)

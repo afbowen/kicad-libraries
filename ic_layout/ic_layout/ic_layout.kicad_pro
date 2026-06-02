@@ -416,6 +416,10 @@
     [
       "c1b46307-d2ea-43cd-90fb-d609130ede9f",
       "temperature"
+    ],
+    [
+      "7a25588d-6719-4076-8196-336344f60ce8",
+      "magnetic"
     ]
   ],
   "text_variables": {}
