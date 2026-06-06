@@ -56,30 +56,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.645 4.6) (xy -6.245 4.6) (xy -6.245 0.2) (xy -3.645 0.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "913798f6-1b34-4612-895d-ca42264e3bb1")
-	)
-	(fp_poly
-		(pts
-			(xy 6.535 5) (xy -1.115 5) (xy -1.115 -5) (xy 6.535 -5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "9456fcc5-dcdf-48b7-aa21-1613aaa2b433")
-	)
-	(fp_poly
-		(pts
 			(xy -3.645 4.6) (xy -4.535 4.6) (xy -4.535 0.2) (xy -3.645 0.2)
 		)
 		(stroke
