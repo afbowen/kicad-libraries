@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LPG0003A"
+	(property "Value" "DRV5055A1QLPG"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

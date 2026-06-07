@@ -6,7 +6,7 @@
 	(descr "ESP32-C3-MINI-1-H4-1")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 -2.7 0)
+		(at -5.9 -13.6 0)
 		(layer "F.SilkS")
 		(uuid "30e5a907-361e-4278-9096-aee52a93ae01")
 		(effects
