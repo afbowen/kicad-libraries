@@ -818,9 +818,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 11.43 -8.89 270)
+				(length 0)
 				(hide yes)
 				(name "NC_4"
 					(effects
@@ -837,123 +837,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
-				(hide yes)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
-				(hide yes)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
-				(hide yes)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
-				(hide yes)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
-				(hide yes)
-				(name "NC_9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
-				(hide yes)
-				(name "NC_10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 11.43 -10.16 270)
+				(length 0)
 				(hide yes)
 				(name "NC_11"
 					(effects
@@ -970,9 +856,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 12.7 -8.89 270)
+				(length 0)
+				(hide yes)
+				(name "NC_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -10.16 270)
+				(length 0)
 				(hide yes)
 				(name "NC_12"
 					(effects
@@ -989,9 +894,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 13.97 -8.89 270)
+				(length 0)
+				(hide yes)
+				(name "NC_9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 13.97 -10.16 270)
+				(length 0)
 				(hide yes)
 				(name "NC_13"
 					(effects
@@ -1008,9 +932,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 15.24 -8.89 270)
+				(length 0)
+				(hide yes)
+				(name "NC_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -10.16 270)
+				(length 0)
 				(hide yes)
 				(name "NC_14"
 					(effects
@@ -1027,9 +970,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 16.51 -8.89 270)
+				(length 0)
+				(hide yes)
+				(name "NC_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 16.51 -10.16 270)
+				(length 0)
 				(hide yes)
 				(name "NC_1"
 					(effects
@@ -1046,9 +1008,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 17.78 -8.89 270)
+				(length 0)
+				(hide yes)
+				(name "NC_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -10.16 270)
+				(length 0)
 				(hide yes)
 				(name "NC_2"
 					(effects
@@ -1065,18 +1046,37 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 -27.94 90)
-				(length 5.08)
+			(pin no_connect line
+				(at 19.05 -8.89 270)
+				(length 0)
 				(hide yes)
-				(name "NC_3"
+				(name "NC_7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 19.05 -10.16 270)
+				(length 0)
+				(hide yes)
+				(name "NC_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
