@@ -390,6 +390,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_PN" "C5219374"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "LMR50410Y3FQDBVRQ1"
 			(at 0 0 0)
 			(effects
