@@ -1,4 +1,4 @@
-(footprint "XT30"
+(footprint "XT30UPB-M"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -337,7 +337,7 @@
 		(uuid "75215cb0-a599-4f3b-951c-acb2d57c5d10")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_LIB}/3dmodels/XT30_M.step"
+	(model "${KICAD_LIB}/3dmodels/XT30UPB-M.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -8693,7 +8693,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "XT30"
+	(symbol "XT30UPB-F"
 		(pin_names
 			(offset 1.016)
 		)
@@ -8709,7 +8709,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "XT30"
+		(property "Value" "XT30UPB-F"
 			(at -6.35 -6.35 0)
 			(effects
 				(font
@@ -8718,7 +8718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Custom_Connector:XT30"
+		(property "Footprint" "Custom_Connector:XT30UPB-F"
 			(at -4.572 -10.922 0)
 			(effects
 				(font
@@ -8776,7 +8776,163 @@
 				(hide yes)
 			)
 		)
-		(symbol "XT30_0_0"
+		(symbol "XT30UPB-F_0_0"
+			(rectangle
+				(start -5.08 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -4.445 0.9525)
+				(end -2.8575 1.5875)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 -1.5875)
+				(end -2.8575 -0.9525)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -8.89 1.27 0)
+				(length 5.08)
+				(name "P"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "P"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -1.27 0)
+				(length 5.08)
+				(name "N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "N"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XT30UPB-M"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -3.81 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at -6.35 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Custom_Connector:XT30UPB-M"
+			(at -4.572 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XT30UPB-M"
+			(at -4.572 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "amass"
+			(at -4.572 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.7mm"
+			(at -4.572 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "XT30UPB-M_0_0"
 			(rectangle
 				(start -5.08 3.81)
 				(end 3.81 -3.81)

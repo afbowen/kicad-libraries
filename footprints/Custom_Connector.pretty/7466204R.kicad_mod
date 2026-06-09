@@ -205,10 +205,12 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 8 8)
-		(layers "F.Cu" "F.Mask")
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.5)
 		(thermal_bridge_angle 45)
 		(uuid "566f0407-33b8-4a2b-8605-5af5ad98956d")
