@@ -2412,7 +2412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "C5229264"
+		(property "Mfr" "Microchip"
 			(at 0 0 0)
 			(effects
 				(font
