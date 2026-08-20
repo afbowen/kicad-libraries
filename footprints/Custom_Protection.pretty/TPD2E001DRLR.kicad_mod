@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "TVS Diode"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -49,6 +49,50 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TPD2E001DRLR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2c066034-8910-40a9-988a-992f067f1f74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB_PN" "C150526"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fc77af20-44a6-438c-a59f-634434a5e604")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Package" "SOT-553-5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "63b7e3aa-4a46-4543-bce8-f256ee520048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Max_Temperature" "85°C"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "23112e19-1e17-4711-b378-f7398da16c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -433,7 +477,7 @@
 		(uuid "bacad245-b737-41e3-82d3-8eabd0d96cfe")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/TPD2E001DRLR.step"
+	(model "${KICAD_LIB}/3dmodels/TPD2E001DRLR.step"
 		(offset
 			(xyz 0 0 0)
 		)
