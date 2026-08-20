@@ -253,7 +253,7 @@
 		(uuid "6bb70fd2-8b39-4b3c-98d1-f0a3233baccc")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/ADS1115IDGST.step"
+	(model "${KICAD_LIB}/3dmodels/ADS1115IDGST.step"
 		(offset
 			(xyz 0 0 0)
 		)
