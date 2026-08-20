@@ -229,7 +229,7 @@
 		(uuid "30d6250a-28b3-4e37-9be5-8605ba2c3713")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/SMCJ33A.STEP"
+	(model "${KICAD_LIB}/3dmodels/SMCJ33A.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

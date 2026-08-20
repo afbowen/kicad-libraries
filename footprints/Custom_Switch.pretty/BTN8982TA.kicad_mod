@@ -770,7 +770,7 @@
 		(uuid "f1ce8d55-a0b7-4bb2-89d3-91ea335eb189")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/BTN8982TA.step"
+	(model "${KICAD_LIB}/3dmodels/BTN8982TA.step"
 		(offset
 			(xyz 0 0 0)
 		)

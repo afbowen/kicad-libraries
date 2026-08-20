@@ -49,6 +49,72 @@
 			)
 		)
 	)
+	(property "MPN" "0ACA-9400-TE"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f9cfe2d7-9ac4-42f1-879f-0efa97850928")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Mfr" "Bel Fuse"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c93b669a-ea16-4e21-a8bf-82ee8604b183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "JLCPCB_PN" "C3162788"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "95df987d-ed26-443d-a7bb-44cdd2c12a74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Package" "2-SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c7b416b4-4eed-4202-bc7e-e58574d88f33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Voltage" "63V"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4784bb19-fba2-4bff-8923-ecd884ffddeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Current" "40A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a364951f-7098-4094-9e33-084e359d199a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -0.945 -1.3)
@@ -169,7 +235,7 @@
 	(embedded_fonts no)
 	(model "${KICAD_LIB}/3dmodels/0ACA-9400-TE.stp"
 		(offset
-			(xyz 0 0 -4.1)
+			(xyz 0.5 -0.15 -4.1)
 		)
 		(scale
 			(xyz 1 1 1)
