@@ -290,6 +290,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5d6ef53-6ae8-4c46-9399-b772ee225559")
 		)
@@ -297,6 +324,12 @@
 			(uuid "2920ffa5-5ebe-4ba9-a795-69775191aa3a")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C8")
@@ -405,6 +438,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a397e850-b21d-479f-aed3-fb5adaab0689")
 		)
@@ -412,6 +472,12 @@
 			(uuid "9f000742-4262-4e25-a7a1-4ed24c8c63f5")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C3")
@@ -529,6 +595,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ab72f58-f84d-4d9c-a7a0-305b15191621")
 		)
@@ -536,6 +629,12 @@
 			(uuid "74e259b6-1ea5-40d1-bfa1-8c437ec5c081")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C7")
@@ -618,6 +717,51 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d201486c-7fa3-4839-be4a-9d13bab04fa6")
 		)
@@ -625,6 +769,12 @@
 			(uuid "11aa1e52-cc9b-48ab-97e9-0b4f0cd6aa25")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C21")
@@ -733,6 +883,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "411a1897-28c9-4f4c-bd64-51f8a291722c")
 		)
@@ -740,9 +917,167 @@
 			(uuid "d7a36952-0540-4f4e-ab37-1b64d7042405")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 69.85 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87fa65e6-4004-4423-b57a-73cab6b3307a")
+		(property "Reference" "C9"
+			(at 67.31 66.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 67.31 68.5862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B472KB8NNNC"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_Status" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" "capacitor"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Critical" "no"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "397df5fe-8a33-40ee-a463-f5600a202bf7")
+		)
+		(pin "1"
+			(uuid "ddab02be-ca72-47a9-aa7f-059f304de21c")
+		)
+		(instances
+			(project "generics"
+				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -847,6 +1182,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "333e7913-d4af-4774-80ca-b883b0fcf201")
 		)
@@ -854,6 +1216,12 @@
 			(uuid "bdf31f68-9520-40a7-806b-7a6c9c1a0b83")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C2")
@@ -881,7 +1249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "47nF"
 			(at 42.672 64.516 0)
 			(effects
 				(font
@@ -953,6 +1321,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_Status" ""
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Class" ""
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc64d1a0-83cb-493a-8258-7feb2278cdb6")
 		)
@@ -960,6 +1355,12 @@
 			(uuid "f4f20122-e108-4280-bb77-36c0295185b9")
 		)
 		(instances
+			(project "cap_0603"
+				(path "/e81981c1-2d73-443e-befb-e865318534e5"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "generics"
 				(path "/ff075d90-2677-48ca-91fd-a3a441ca4e63/78b474d1-d813-4531-98d3-0df205398ee6"
 					(reference "C5")
@@ -968,4 +1369,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

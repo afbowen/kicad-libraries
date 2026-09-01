@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C?","1","4.7nF","","","","Resistor_SMD:R_0603_1608Metric","~"
+"C?","1","1uF","","","","Resistor_SMD:R_0603_1608Metric","~"
+"C?,C?","2","0.1uF","","","","Resistor_SMD:R_0603_1608Metric","~"
+"C?","1","4.7uF","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C?,C?","2","2.2uF","","","","Capacitor_SMD:C_0603_1608Metric","~"
