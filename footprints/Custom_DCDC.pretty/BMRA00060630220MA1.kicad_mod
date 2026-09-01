@@ -1,0 +1,114 @@
+(footprint "BMRA00060630220MA1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pulse/Chilisin BMRA/AMRU 060630 22uH molded power inductor; footprint inferred from supplied STEP model. Body approx 6.6x6.6 mm, terminal metal approx 1.6x3.0 mm.")
+	(tags "power inductor 22uH BMRA AMRU 060630")
+	(property "Reference" "L?"
+		(at 0 -4.35 0)
+		(layer "F.SilkS")
+		(uuid "19f3684d-2f52-4b1d-ba4d-8fa9910b25a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BMRA00060630220MA1"
+		(at 0 4.35 0)
+		(layer "F.Fab")
+		(uuid "c988e73a-de17-4987-b4fe-6eee20944363")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "048a6ad0-76e1-483c-ba45-c15752682e61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c8b429d-0d0e-4674-b0ef-d5d1b84fb9be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.55 -3.55)
+		(end 3.55 3.55)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "badba5c2-21a2-42c7-9cc5-76b023be5f0b")
+	)
+	(fp_rect
+		(start -3.8 -3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "32f75094-3607-49ca-8f05-b984812b8667")
+	)
+	(fp_rect
+		(start -3.3 -3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "729c8be9-a2e6-4c91-954b-54538da41452")
+	)
+	(pad "1" smd roundrect
+		(at -2.675 0)
+		(size 2 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "758f1a26-d082-4b29-90eb-ae613305717d")
+	)
+	(pad "2" smd roundrect
+		(at 2.675 0)
+		(size 2 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "df4bcddd-91ad-4a95-b72c-f22a999a6324")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/BMRA00060630220MA1.stp"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
