@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "LMR38010SDDAR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -3 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "de11a5b3-9ea8-4af7-9ac9-75276bd887ba")
@@ -253,18 +253,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "df5d567d-5040-415a-9f00-0f1cb06bc25f")
-	)
-	(fp_text user "Designator649"
-		(at -4.5466 -4.1656 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "67370b56-ba78-45ff-86d6-869fc9d1a69a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
