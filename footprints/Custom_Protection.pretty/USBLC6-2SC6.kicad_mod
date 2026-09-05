@@ -52,6 +52,7 @@
 	(property "MPN" "USBLC6-2SC6"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "6e55ea8e-860d-4227-b5c3-f75a9c42b47d")
 		(effects
 			(font
@@ -63,6 +64,7 @@
 	(property "Mfr" "STM"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c8aea6f7-b4f8-4c38-ac7e-04095938b7f0")
 		(effects
 			(font
@@ -74,6 +76,7 @@
 	(property "JLCPCB_PN" "C7519"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "09d3d516-2647-413d-8eca-1c02d94bbfb4")
 		(effects
 			(font
@@ -85,6 +88,7 @@
 	(property "Max_Temp" "125℃"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "12e2f654-d66e-4fa6-89bb-44bcf7d6b863")
 		(effects
 			(font
@@ -96,6 +100,7 @@
 	(property "Package" "SOT-23-6"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "9f64b419-6de8-420b-8ca1-97dd097b9345")
 		(effects
 			(font
