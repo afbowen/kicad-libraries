@@ -242,4 +242,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/RES_4026.stp"
+		(offset
+			(xyz 5 3.175 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )
