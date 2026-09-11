@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 5.842 7.366 0)
+			(at 13.462 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17,8 +17,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "ESP32-C3-MINI-1-H4"
-			(at 5.08 4.826 0)
+		(property "Value" "ESP32-C3-MINI-1-H4X"
+			(at 3.048 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESP32-C3-MINI-1-H4"
+		(property "MPN" "ESP32-C3-MINI-1-H4X"
 			(at 29.21 -794.92 0)
 			(effects
 				(font
@@ -75,7 +75,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_PN" "C2934569"
+		(property "JLCPCB_PN" "C41349510"
 			(at 0.254 16.256 0)
 			(effects
 				(font
