@@ -5431,7 +5431,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Custom_Connector:ATF13-4P-BM03"
+		(property "Footprint" "Custom_Connector:AT13-4P-BM03"
 			(at 16.51 -94.92 0)
 			(effects
 				(font
