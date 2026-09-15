@@ -1,0 +1,196 @@
+(footprint "OPT4001DNPRQ1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments OPT4001DNPRQ1; DNP0006A USON-6, 2.0 x 2.0 mm; TI recommended land pattern")
+	(tags "OPT4001 OPT4001-Q1 DNP0006A USON-6 ambient light sensor")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(layer "F.SilkS")
+		(uuid "bc8c5f09-77c3-4c18-ac0e-f5f309b293da")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "OPT4001DNPRQ1"
+		(at 0 1.85 0)
+		(layer "F.Fab")
+		(uuid "a594c391-21e6-44ce-b36b-9bed08d3f2de")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b090a2c-25d5-407c-81e9-2f2b1c95c5d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d765086-f059-426d-a5b0-c663e4aef727")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.15 -1.1)
+		(end -1.15 -0.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ae534a9-862a-4ad2-ba9a-76dd4627a757")
+	)
+	(fp_line
+		(start -1.15 -1.1)
+		(end -0.85 -1.1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70202339-23c4-44ea-9c0b-44134f7eff07")
+	)
+	(fp_line
+		(start -0.55 -1.1)
+		(end 0.55 -1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62d81261-285e-4df9-b36c-76738b4f0967")
+	)
+	(fp_line
+		(start -0.55 1.1)
+		(end 0.55 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c4dc5ef-20ec-4af3-aa3f-fa37d5a67bd3")
+	)
+	(fp_rect
+		(start -1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f46c5f96-5274-4f40-b34a-000c04b0f34c")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.75) (xy -0.75 -1) (xy 1 -1) (xy 1 1) (xy -1 1) (xy -1 -0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f401827f-4427-432c-a62f-74ae9862f9e3")
+	)
+	(fp_text user "1"
+		(at -0.55 -0.55 0)
+		(layer "F.Fab")
+		(uuid "925f1b8a-5dde-4161-b7ff-6cda080e8133")
+		(effects
+			(font
+				(size 0.35 0.35)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 0.62 1.25)
+		(layers "F.Paste")
+		(uuid "44aa2e03-f035-4dd0-9039-32dbc8995daf")
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 0.65 1.35)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.07)
+		(uuid "498bf05c-e87e-4fa7-8f3d-5581a937887f")
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.65)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "ad73bcbe-ae25-4a37-b494-82a2f4918c15")
+	)
+	(pad "2" smd rect
+		(at -0.7 0)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "90f3d96a-be98-4410-8434-d33972d4d4d2")
+	)
+	(pad "3" smd rect
+		(at -0.7 0.65)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "de837ef0-0cee-44ba-96b7-f9b2d19ac860")
+	)
+	(pad "4" smd rect
+		(at 0.7 0.65)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "de7810b8-774e-4492-b732-515e416c0df0")
+	)
+	(pad "5" smd rect
+		(at 0.7 0)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "09d9d323-c7a2-45cb-acf9-2ea06adc2fe1")
+	)
+	(pad "6" smd rect
+		(at 0.7 -0.65)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.07)
+		(uuid "1496ce6b-0f1e-4d37-8b15-e76faec90466")
+	)
+	(embedded_fonts no)
+	(model "/home/adam/Downloads/OPT4001DNPRQ1/OPT4001DNPRQ1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
