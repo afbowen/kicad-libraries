@@ -229,14 +229,14 @@
 	)
 	(pad "A1_B12" smd rect
 		(at -3.2 -7.345)
-		(size 0.6 1.15)
+		(size 0.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "54a97712-8a83-4330-9f1e-524fa4240249")
 	)
 	(pad "A4_B9" smd rect
 		(at -2.4 -7.345)
-		(size 0.6 1.15)
+		(size 0.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "f8f9d7f2-0564-4e3d-b26d-7a8643e22b99")
@@ -271,14 +271,14 @@
 	)
 	(pad "B1_A12" smd rect
 		(at 3.2 -7.345)
-		(size 0.6 1.15)
+		(size 0.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c26325d8-4f80-47d6-9657-727e822d2594")
 	)
 	(pad "B4_A9" smd rect
 		(at 2.4 -7.345)
-		(size 0.6 1.15)
+		(size 0.6 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "59b2c598-6bd3-4ec4-9816-a2eb738dc8f3")

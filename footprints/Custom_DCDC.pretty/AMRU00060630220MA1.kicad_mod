@@ -1,97 +1,163 @@
 (footprint "AMRU00060630220MA1"
-  (version 20241229)
-  (generator "pcbnew")
-  (generator_version "9.0")
-  (layer "F.Cu")
-  (descr "Pulse/Yageo AMRU00060630220MA1, AMRU00060630 molded power inductor, 6.8 x 7.3 x 2.8 mm; manufacturer recommended land pattern")
-  (tags "AMRU AMRU00060630 power inductor 22uH AEC-Q200")
-  (property "Reference" "REF**"
-    (at 0 -4.2 0)
-    (layer "F.SilkS")
-    (uuid "a4545a03-7c3d-4e60-a1e7-719531556f69")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (property "Value" "AMRU00060630220MA1"
-    (at 0 4.2 0)
-    (layer "F.Fab")
-    (uuid "ab016bf0-27eb-4019-a3f2-979f4784140a")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (attr smd)
-
-  (fp_rect
-    (start -3.65 -3.4)
-    (end 3.65 3.4)
-    (stroke (width 0.1) (type default))
-    (fill none)
-    (layer "F.Fab")
-    (uuid "e0d453d8-3f73-4ddd-8a70-15e633460b5f")
-  )
-
-  (fp_line
-    (start -3.65 -3.4)
-    (end 3.65 -3.4)
-    (stroke (width 0.15) (type default))
-    (layer "F.SilkS")
-    (uuid "135456b5-0f21-4bbf-a35d-aacb9d294025")
-  )
-  (fp_line
-    (start -3.65 3.4)
-    (end 3.65 3.4)
-    (stroke (width 0.15) (type default))
-    (layer "F.SilkS")
-    (uuid "0a3e35f2-4433-4ec2-ab46-4e1195090be9")
-  )
-  (fp_line
-    (start -3.65 -3.4)
-    (end -3.65 -2.05)
-    (stroke (width 0.15) (type default))
-    (layer "F.SilkS")
-    (uuid "26857f18-ecc2-41b1-bada-83cea49e443f")
-  )
-  (fp_line
-    (start -3.65 2.05)
-    (end -3.65 3.4)
-    (stroke (width 0.15) (type default))
-    (layer "F.SilkS")
-    (uuid "ac30548a-7e0e-4233-97dd-e9628a8a586c")
-  )
-  (fp_line
-    (start 3.65 -3.4)
-    (end 3.65 -2.05)
-    (stroke (width 0.15) (type default))
-    (layer "F.SilkS")
-    (uuid "282be45e-94cb-4e16-876e-0101e42bc552")
-  )
-  (fp_line
-    (start 3.65 2.05)
-    (end 3.65 3.4)
-    (stroke (width 0.15) (type default))
-    (layer "F.SilkS")
-    (uuid "49cd2c67-73c2-499f-b6a7-6352df3eebe9")
-  )
-
-  (fp_rect
-    (start -4.45 -3.65)
-    (end 4.45 3.65)
-    (stroke (width 0.05) (type default))
-    (fill none)
-    (layer "F.CrtYd")
-    (uuid "e2c552d7-0daa-438a-b575-8e8c9232a756")
-  )
-
-  (pad "1" smd roundrect
-    (at -3.025 0)
-    (size 2.35 3.5)
-    (layers "F.Cu" "F.Paste" "F.Mask")
-    (roundrect_rratio 0.08)
-    (uuid "6c273101-e76c-44b3-816a-ac70288671de")
-  )
-  (pad "2" smd roundrect
-    (at 3.025 0)
-    (size 2.35 3.5)
-    (layers "F.Cu" "F.Paste" "F.Mask")
-    (roundrect_rratio 0.08)
-    (uuid "7d2a9f2f-1c3d-480c-8a6c-dbd51f6d55c9")
-  )
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pulse/Yageo AMRU00060630220MA1, AMRU00060630 molded power inductor, 6.8 x 7.3 x 2.8 mm; manufacturer recommended land pattern")
+	(tags "AMRU AMRU00060630 power inductor 22uH AEC-Q200")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "a4545a03-7c3d-4e60-a1e7-719531556f69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AMRU00060630220MA1"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "ab016bf0-27eb-4019-a3f2-979f4784140a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eebf8990-02fc-407b-8858-0fa7a20c887e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d423b607-570f-4756-97ed-4e4f49b890b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.65 -3.4)
+		(end -3.65 -2.05)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26857f18-ecc2-41b1-bada-83cea49e443f")
+	)
+	(fp_line
+		(start -3.65 -3.4)
+		(end 3.65 -3.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "135456b5-0f21-4bbf-a35d-aacb9d294025")
+	)
+	(fp_line
+		(start -3.65 2.05)
+		(end -3.65 3.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac30548a-7e0e-4233-97dd-e9628a8a586c")
+	)
+	(fp_line
+		(start -3.65 3.4)
+		(end 3.65 3.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a3e35f2-4433-4ec2-ab46-4e1195090be9")
+	)
+	(fp_line
+		(start 3.65 -3.4)
+		(end 3.65 -2.05)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "282be45e-94cb-4e16-876e-0101e42bc552")
+	)
+	(fp_line
+		(start 3.65 2.05)
+		(end 3.65 3.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49cd2c67-73c2-499f-b6a7-6352df3eebe9")
+	)
+	(fp_rect
+		(start -4.45 -3.65)
+		(end 4.45 3.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e2c552d7-0daa-438a-b575-8e8c9232a756")
+	)
+	(fp_rect
+		(start -3.65 -3.4)
+		(end 3.65 3.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e0d453d8-3f73-4ddd-8a70-15e633460b5f")
+	)
+	(pad "1" smd roundrect
+		(at -3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08)
+		(uuid "6c273101-e76c-44b3-816a-ac70288671de")
+	)
+	(pad "2" smd roundrect
+		(at 3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08)
+		(uuid "7d2a9f2f-1c3d-480c-8a6c-dbd51f6d55c9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/AMRU00060630220MA1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

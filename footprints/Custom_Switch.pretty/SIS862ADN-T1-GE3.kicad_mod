@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SIS862ADN-T1-GE3 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -2.5 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5e94e91b-6642-4378-a177-26da6faeb5fe")
@@ -53,18 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy 1.2954 -1.1176) (xy 1.2954 1.1176) (xy -0.4318 1.1176) (xy -0.4318 -1.1176)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "ffad69b7-f9b1-403f-88d7-3844ba8d7bef")
-	)
 	(fp_line
 		(start -1.7018 1.7018)
 		(end 1.7018 1.7018)
@@ -313,6 +301,12 @@
 		(size 0.9652 0.3556)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6beca2a5-28e2-4f24-905c-27236c5cc02d")
+	)
+	(pad "5" smd rect
+		(at 0.5 0)
+		(size 1.75 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e469244-22eb-46a5-89d0-630453595c68")
 	)
 	(pad "5" smd rect
 		(at 1.6256 0.9906)
