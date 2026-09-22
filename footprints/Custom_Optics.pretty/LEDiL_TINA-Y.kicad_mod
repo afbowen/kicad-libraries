@@ -1,0 +1,124 @@
+(footprint "LEDiL_TINA-Y"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LEDiL TINA-Y holder mounting footprint for TINA-Y-W, TINA-Y-WW, and TINA-Y-O. Origin is LED optical center. Two 2.1 mm NPTH locating holes on 8.6 mm pitch.")
+	(tags "LEDiL TINA-Y TIR optic lens holder")
+	(property "Reference" "OPT**"
+		(at 0 -9.5 0)
+		(layer "F.SilkS")
+		(uuid "c58f7c35-48c4-4958-99c6-57a6b7de95fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LEDiL_TINA-Y"
+		(at 0 9.5 0)
+		(layer "F.Fab")
+		(uuid "64d439df-eb79-40ad-b779-e31c5dc4e975")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "736ec7a1-d271-4769-bacd-65c3fcecf868")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "802baa12-3b8c-4d8f-8404-83bba418a21a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 8.05 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "325d3dd7-d9ca-44ea-aced-c1af54251369")
+	)
+	(fp_line
+		(start -7.5 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c7817cf7-8020-46a9-af50-395bf9bbf370")
+	)
+	(fp_rect
+		(start -3.285 -3.285)
+		(end 3.285 3.285)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7f80c000-b079-4aae-b87b-998b5db51f18")
+	)
+	(fp_text user "O BEAM AXIS"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "3caf89e7-99d2-4049-9676-bbf9ba0bcf56")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.3 0)
+		(size 2.1 2.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cbddc0d5-c2aa-4c98-931c-d5a9c2cd3a5b")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.3 0)
+		(size 2.1 2.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "544c4f58-b2aa-47af-8232-29afdd85d65c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/TINA-Y.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
