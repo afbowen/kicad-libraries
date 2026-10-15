@@ -1,0 +1,168 @@
+(footprint "Motor_Phase_Solder_16AWG_PTH_3x1_P8.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3-phase motor wire solder interface for up to ~16 AWG stranded wire; 2.4 mm finished holes, 5.5 mm pads, 8.0 mm pitch")
+	(tags "motor phase solder wire 16AWG PTH")
+	(property "Reference" "J?"
+		(at 8 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "35cba870-8d8b-44b3-bef9-5a2281b97e7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOTOR_PHASES"
+		(at 8 4.5 0)
+		(layer "F.Fab")
+		(uuid "d1754467-8130-4b04-9649-d5039630af41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ced06e08-74cb-405e-9b5c-8535a41002af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17a28cdd-1747-4713-bb5f-654a4d1a5281")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.25 -3.25)
+		(end 19.25 3.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2c7e5e4e-b3db-4d24-92b5-98b13133057a")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 19.5 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "74387dda-2f17-401d-a1c7-846537d53d21")
+	)
+	(fp_text user "A"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "8298d990-bcd6-4206-b1e3-eb4c367f4d0d")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "C"
+		(at 16 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "edfaa826-7d2d-4e8e-ace7-3f9367974daa")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B"
+		(at 8 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "f2ac209c-0741-4c38-8ce0-ac00c85cecae")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "C"
+		(at 16 0 0)
+		(layer "F.Fab")
+		(uuid "69e7293f-c234-484f-a197-ed30ebd7a597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B"
+		(at 8 0 0)
+		(layer "F.Fab")
+		(uuid "9938ff0c-8c5c-46b7-a2b0-c22a488d98aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fc965ea9-4237-4572-95cc-ceb687226065")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.5 5.5)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d70407bf-2fed-4da4-bc57-32d7c4523937")
+	)
+	(pad "2" thru_hole circle
+		(at 8 0)
+		(size 5.5 5.5)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18932146-75de-411c-8346-a55288e23739")
+	)
+	(pad "3" thru_hole circle
+		(at 16 0)
+		(size 5.5 5.5)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9b69ffb-6a25-4ace-85dc-48e7f9fe2bd0")
+	)
+	(embedded_fonts no)
+)
