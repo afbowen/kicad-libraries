@@ -418,6 +418,30 @@
 			)
 		)
 	)
+	(pad "" smd rect
+		(at -6.875001 -3.601701)
+		(size 1.4478 2.0066)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f424872d-b109-4bac-8974-85335746107e")
+	)
+	(pad "" smd rect
+		(at -6.875001 4.698299)
+		(size 1.4478 2.0066)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fba8308e-87f1-4318-b268-f69fd243167b")
+	)
+	(pad "" smd rect
+		(at 6.875001 -3.601701)
+		(size 1.4478 2.0066)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a98f6c89-3532-4b3d-854e-07b92b9e5e14")
+	)
+	(pad "" smd rect
+		(at 6.875001 4.698299)
+		(size 1.4478 2.0066)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "156225b1-98b3-4c13-bc51-86922a9675af")
+	)
 	(pad "1" smd rect
 		(at 3.205 2.098299)
 		(size 0.8128 1.4986)
@@ -465,30 +489,6 @@
 		(size 0.8128 1.4986)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "358d5d1a-5f3d-4d2e-9fe1-716f3638c73b")
-	)
-	(pad "G1" smd rect
-		(at 6.875001 4.698299)
-		(size 1.4478 2.0066)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "156225b1-98b3-4c13-bc51-86922a9675af")
-	)
-	(pad "G2" smd rect
-		(at 6.875001 -3.601701)
-		(size 1.4478 2.0066)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a98f6c89-3532-4b3d-854e-07b92b9e5e14")
-	)
-	(pad "G3" smd rect
-		(at -6.875001 -3.601701)
-		(size 1.4478 2.0066)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f424872d-b109-4bac-8974-85335746107e")
-	)
-	(pad "G4" smd rect
-		(at -6.875001 4.698299)
-		(size 1.4478 2.0066)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fba8308e-87f1-4318-b268-f69fd243167b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB}/3dmodels/472192001.stp"
