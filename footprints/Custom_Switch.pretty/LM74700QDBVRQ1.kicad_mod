@@ -52,6 +52,7 @@
 	(property "MPN" "LM74700QDBVRQ1"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7cf54dda-2987-4a18-a689-f48df5291ede")
 		(effects
 			(font
@@ -63,6 +64,7 @@
 	(property "Mfr" "Texas Instruments"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "0918e7f3-7aa6-46ac-a302-2659481a9506")
 		(effects
 			(font
@@ -74,6 +76,7 @@
 	(property "JLCPCB_PN" "C2941042"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "cc6507de-763a-46ba-a542-73518c9dee58")
 		(effects
 			(font
@@ -85,6 +88,7 @@
 	(property "Package" "SOT-23-6"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "14bb3f35-2ea0-4194-8203-6572382a708b")
 		(effects
 			(font
