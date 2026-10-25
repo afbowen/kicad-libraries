@@ -535,8 +535,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
-			(at -8.636 11.176 0)
+		(property "Reference" "U"
+			(at -0.254 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +545,7 @@
 			)
 		)
 		(property "Value" "LMR38010FSQDDARQ1"
-			(at -8.636 8.636 0)
+			(at -9.652 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,8 +629,8 @@
 		)
 		(symbol "LMR38010FSQDDARQ1_1_1"
 			(rectangle
-				(start -12.7 6.35)
-				(end 12.7 -13.97)
+				(start -12.7 11.43)
+				(end 12.7 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -639,8 +639,8 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at -17.78 3.81 0)
+			(pin power_in line
+				(at -17.78 8.89 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -657,8 +657,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -17.78 -1.27 0)
+			(pin input line
+				(at -17.78 3.81 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -676,7 +676,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -6.35 0)
+				(at -17.78 -1.27 0)
 				(length 5.08)
 				(name "RT/SYNC"
 					(effects
@@ -693,8 +693,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -17.78 -11.43 0)
+			(pin power_in line
+				(at -17.78 -8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -712,7 +712,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -19.05 90)
+				(at 0 -16.51 90)
 				(length 5.08)
 				(name "THERMAL_PAD"
 					(effects
@@ -729,44 +729,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 3.81 180)
-				(length 5.08)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -1.27 180)
-				(length 5.08)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -6.35 180)
+			(pin open_collector line
+				(at 17.78 8.89 180)
 				(length 5.08)
 				(name "PG"
 					(effects
@@ -784,7 +748,43 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -11.43 180)
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -8.89 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -812,7 +812,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.762 17.272 0)
+			(at -0.762 16.002 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -820,7 +820,7 @@
 			)
 		)
 		(property "Value" "LMR38020FDDAR"
-			(at 0.508 14.478 0)
+			(at 0.508 13.208 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -921,7 +921,7 @@
 		)
 		(symbol "LMR38020FSQDDARQ1_0_1"
 			(pin power_in line
-				(at -16.51 10.16 0)
+				(at -17.78 8.89 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -939,7 +939,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 5.08 0)
+				(at -17.78 3.81 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -956,26 +956,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -16.51 0 0)
-				(length 5.08)
-				(name "RT_SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -16.51 -5.08 0)
+				(at -17.78 -8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -992,62 +974,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -16.51 -10.16 0)
-				(length 5.08)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 10.16 180)
-				(length 5.08)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 16.51 5.08 180)
-				(length 5.08)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin open_collector line
-				(at 16.51 0 180)
+				(at 17.78 8.89 180)
 				(length 5.08)
 				(name "PG"
 					(effects
@@ -1064,8 +992,93 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -5.08 180)
+		)
+		(symbol "LMR38020FSQDDARQ1_1_1"
+			(rectangle
+				(start -12.7 11.43)
+				(end 12.7 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -17.78 -1.27 0)
+				(length 5.08)
+				(name "RT_SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -16.51 90)
+				(length 5.08)
+				(name "THERMAL_PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -8.89 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -1080,19 +1093,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "LMR38020FSQDDARQ1_1_1"
-			(rectangle
-				(start -11.43 12.7)
-				(end 11.43 -12.7)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
@@ -1872,6 +1872,221 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SRN6045-100M"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L1"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_DCDC:SRP5030T-100M"
+			(at 25.4 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -6.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -6.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRN6045-100M"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Bourns"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" "C476261"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD,6x6mm"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" "3A"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "58.6mΩ"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current_Rating" "2.5A"
+			(at 22.098 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SRN6045-100M_0_1"
+			(arc
+				(start -2.032 0)
+				(mid -1.524 0.5058)
+				(end -1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.016 0)
+				(mid -0.508 0.5058)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.508 0.5058)
+				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 1.524 0.5058)
+				(end 2.032 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SRN6045-100M_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
