@@ -306,7 +306,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TCAN3404DDFRQ1"
+		(property "MPN" "TCAN3403DDFRQ1"
 			(at -23.114 -31.242 0)
 			(effects
 				(font
@@ -324,7 +324,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_PN" "C32428067"
+		(property "JLCPCB_PN" "C35926232"
 			(at -23.114 -31.242 0)
 			(effects
 				(font
