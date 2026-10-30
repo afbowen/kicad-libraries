@@ -1789,7 +1789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Custom_Package:D_SMA"
 			(at 7.874 -6.858 0)
 			(effects
 				(font

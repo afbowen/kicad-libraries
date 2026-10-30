@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "DDF0008A-IPC_A"
+	(property "Value" "TCAN3403DDFRQ1"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -84,6 +84,17 @@
 		(layer "F.SilkS")
 		(uuid "e020e331-8013-4583-ac74-afaf70eaa331")
 	)
+	(fp_rect
+		(start -2 -1.75)
+		(end 2 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5c2972c5-4c89-4201-9157-b6bfb11bbafe")
+	)
 	(fp_line
 		(start -0.825 -1.475001)
 		(end 0.825 -1.475001)
@@ -123,18 +134,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "e22de111-9101-40fe-a2f7-f2118778f011")
-	)
-	(fp_text user "Designator94"
-		(at -2.3622 -2.9972 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "19b3cea8-657f-4b14-bd56-ce5155205f4e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

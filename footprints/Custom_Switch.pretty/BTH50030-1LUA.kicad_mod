@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Original name IFX-PG-HSOF-8-6-V\n\nMax Component Height - 2.30mm")
-	(property "Reference" "Designator"
+	(property "Reference" "REF**"
 		(at -7.5 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -347,8 +347,8 @@
 		(uuid "d5aa8fc7-b768-4fd0-8283-f2c84b7451f3")
 	)
 	(fp_line
-		(start -7.1 -5.8)
-		(end 7.4 -5.8)
+		(start -6.8 -5.5)
+		(end 7.1 -5.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -357,8 +357,8 @@
 		(uuid "84121132-d936-4a5e-8c3c-2e0141d7cd4a")
 	)
 	(fp_line
-		(start -7.1 5.8)
-		(end -7.1 -5.8)
+		(start -6.8 5.5)
+		(end -6.8 -5.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -367,8 +367,8 @@
 		(uuid "f253cfb5-43e8-4371-bbcf-8cca57110711")
 	)
 	(fp_line
-		(start 7.4 -5.8)
-		(end 7.4 5.8)
+		(start 7.1 -5.5)
+		(end 7.1 5.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -377,8 +377,8 @@
 		(uuid "c40eaaf9-c9c9-429d-9aef-cca740196e8e")
 	)
 	(fp_line
-		(start 7.4 5.8)
-		(end -7.1 5.8)
+		(start 7.1 5.5)
+		(end -6.8 5.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -541,4 +541,15 @@
 		(uuid "22099837-cdf4-41b6-b73d-debce2266872")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/BTH50030-1LUA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

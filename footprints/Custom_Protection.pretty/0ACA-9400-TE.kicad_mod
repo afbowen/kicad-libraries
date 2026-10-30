@@ -17,6 +17,7 @@
 	(property "Value" "FUSC6226X310N"
 		(at 4.475 3.285 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "30d55f49-fb7b-4ff5-8bd6-b373a8839dc7")
 		(effects
 			(font
@@ -52,6 +53,7 @@
 	(property "MPN" "0ACA-9400-TE"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "f9cfe2d7-9ac4-42f1-879f-0efa97850928")
 		(effects
 			(font
@@ -63,6 +65,7 @@
 	(property "Mfr" "Bel Fuse"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c93b669a-ea16-4e21-a8bf-82ee8604b183")
 		(effects
 			(font
@@ -74,6 +77,7 @@
 	(property "JLCPCB_PN" "C3162788"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "95df987d-ed26-443d-a7bb-44cdd2c12a74")
 		(effects
 			(font
@@ -85,6 +89,7 @@
 	(property "Package" "2-SMD"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c7b416b4-4eed-4202-bc7e-e58574d88f33")
 		(effects
 			(font
@@ -96,6 +101,7 @@
 	(property "Voltage" "63V"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "4784bb19-fba2-4bff-8923-ecd884ffddeb")
 		(effects
 			(font

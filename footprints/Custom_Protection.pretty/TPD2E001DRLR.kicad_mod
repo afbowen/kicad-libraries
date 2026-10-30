@@ -20,6 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "7f045684-7acf-4e28-ae9a-ac7661b72003")
 		(effects
 			(font
@@ -55,6 +56,7 @@
 	(property "MPN" "TPD2E001DRLR"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "2c066034-8910-40a9-988a-992f067f1f74")
 		(effects
 			(font
@@ -66,6 +68,7 @@
 	(property "JLCPCB_PN" "C150526"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "fc77af20-44a6-438c-a59f-634434a5e604")
 		(effects
 			(font
@@ -77,6 +80,7 @@
 	(property "Package" "SOT-553-5"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "63b7e3aa-4a46-4543-bce8-f256ee520048")
 		(effects
 			(font
@@ -88,6 +92,7 @@
 	(property "Max_Temperature" "85°C"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "23112e19-1e17-4711-b378-f7398da16c5d")
 		(effects
 			(font
@@ -389,7 +394,7 @@
 		(uuid "9f876a69-e9cd-4e60-b2dc-7ff4003f7288")
 	)
 	(fp_text user "*"
-		(at -0.9017 -1.9478 0)
+		(at -1.7 -0.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4b526eb1-71f2-4419-8577-bb0a57642737")
@@ -401,18 +406,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -0.9017 -1.9478 0)
-		(layer "F.SilkS")
-		(uuid "986fdfb6-e692-4445-a4a6-ef58f37f9166")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -0.9017 -1.9478 0)
+		(at -1.7 -0.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6850f927-cebc-45be-8a62-b94911257e6b")
@@ -428,17 +422,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a0b039d7-107e-45b6-b77c-469421b62a39")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -0.9017 -1.9478 0)
-		(layer "F.Fab")
-		(uuid "df8a9312-5ef5-4fbd-8af1-1178bc4d251c")
 		(effects
 			(font
 				(size 1 1)
