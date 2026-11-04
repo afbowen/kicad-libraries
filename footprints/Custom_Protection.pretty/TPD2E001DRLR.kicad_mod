@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TPD2E001DRLR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.4 -1.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3bf9bd5d-e695-4bd6-a8a1-3d1193260674")
@@ -102,6 +102,17 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center -1.4 -0.5)
+		(end -1.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c213e74e-4684-4f6e-9f5c-7e81540cfd93")
+	)
 	(fp_line
 		(start -1.3589 -1.1049)
 		(end 1.3589 -1.1049)
@@ -392,30 +403,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "9f876a69-e9cd-4e60-b2dc-7ff4003f7288")
-	)
-	(fp_text user "*"
-		(at -1.7 -0.9 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4b526eb1-71f2-4419-8577-bb0a57642737")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.7 -0.9 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "6850f927-cebc-45be-8a62-b94911257e6b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

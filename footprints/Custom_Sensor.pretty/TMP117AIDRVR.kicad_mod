@@ -184,6 +184,13 @@
 		(layer "F.Fab")
 		(uuid "230d8e80-a7d3-44b2-94a6-a1f964d5f1f1")
 	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "667715b7-a89d-4d2c-81dd-87b4da78cf87")
+	)
 	(pad "1" smd roundrect
 		(at -1.02 -0.65)
 		(size 0.69 0.32)
@@ -231,13 +238,6 @@
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "6e588f28-0d48-44c9-bef3-273e6cc8f881")
-	)
-	(pad "7" smd rect
-		(at 0 0)
-		(size 1 1.6)
-		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.102)
-		(uuid "667715b7-a89d-4d2c-81dd-87b4da78cf87")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB}/3dmodels/TMP117AIDRVR.step"
