@@ -114,8 +114,8 @@
 		(uuid "9e547329-8efa-45c4-8c2c-03e06850453d")
 	)
 	(fp_circle
-		(center -3.855 3.844998)
-		(end -3.474 3.844998)
+		(center -1.5 4)
+		(end -1.5 4)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -123,17 +123,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "e9623a3e-da19-497e-a1e3-dfa829ded3f6")
-	)
-	(fp_circle
-		(center -3.855 3.844998)
-		(end -3.474 3.844998)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill no)
-		(layer "B.SilkS")
-		(uuid "f6cf7656-a228-40dc-b4c1-8ef2ef49f4d9")
 	)
 	(fp_poly
 		(pts
@@ -251,16 +240,16 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 0 3.844999)
-		(size 2 6.000001)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c9434c70-cee6-4e9d-bbe1-ea5cdef2303c")
-	)
-	(pad "2" smd rect
 		(at 0 -5.405001)
 		(size 2 3.500001)
 		(layers "F.Cu" "F.Mask")
 		(uuid "fb40a5e5-1d26-469e-9043-47af9d0bdc51")
+	)
+	(pad "1" smd rect
+		(at 0 3.844999)
+		(size 2 6.000001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c9434c70-cee6-4e9d-bbe1-ea5cdef2303c")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB}/3dmodels/2060-451_998-404.step"
