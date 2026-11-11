@@ -1,5 +1,5 @@
 # kicad-libraries
-This repository contains component symbols, footprint, and 3D models to be used in KicAd projects.
+This repository contains component symbols, footprint, and 3D models to be used in KiCad projects.
 All parts were created using KiCad 9.
 
 **NOTE** that these libraries will **not** be referenced until KiCad paths (for your machine's
