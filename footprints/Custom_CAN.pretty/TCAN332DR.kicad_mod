@@ -237,7 +237,7 @@
 		(uuid "95f0d4ec-7518-453a-af47-b807be975ce3")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/TCAN332DR.step"
+	(model "${KICAD_LIB}/3dmodels/TCAN332DR.step"
 		(offset
 			(xyz 0 0 0)
 		)

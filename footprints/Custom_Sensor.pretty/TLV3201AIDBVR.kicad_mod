@@ -543,7 +543,7 @@
 		(uuid "20e81246-5386-4794-a338-075c47b07550")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/TLV3201AIDBVR.stp"
+	(model "${KICAD_LIB}/3dmodels/TLV3201AIDBVR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

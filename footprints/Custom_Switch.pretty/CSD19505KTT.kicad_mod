@@ -467,7 +467,7 @@
 		(uuid "525e056f-5c00-4ec5-800f-e45397e33c07")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/usmt/kicad-libraries/3dmodels/CSD19505KTT.step"
+	(model "${KICAD_LIB}/3dmodels/CSD19505KTT.step"
 		(offset
 			(xyz 0 0 0)
 		)
