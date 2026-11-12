@@ -1,0 +1,232 @@
+(footprint "TC2070-IDC-FP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf")
+	(tags "tag connect programming header pogo pins")
+	(property "Reference" "REF**"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(uuid "2fe489d7-cfd0-4645-85f5-eb99e0c3a805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tag-Connect_TC2070-IDC-FP"
+		(at 0 -4.8 0)
+		(layer "F.Fab")
+		(uuid "7e7e41f2-82cc-41c2-90d5-b2ae4bffa36f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0665e6cc-1786-4878-9acf-0b7910cc7114")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45a3b702-d87b-48db-824c-05376f53f52e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -4.445 0.635)
+		(end -4.445 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46de014c-5815-4660-ba9d-e5cf7e3d5437")
+	)
+	(fp_line
+		(start -4.445 1.27)
+		(end -3.81 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a95f52b8-22ab-43a6-8501-6905894975f9")
+	)
+	(fp_line
+		(start -6 -2)
+		(end -6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51067c48-5ff6-44f1-8030-d8a8585193ba")
+	)
+	(fp_line
+		(start -6 2)
+		(end 6.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0518186d-216a-4447-a3aa-348baba8d5b8")
+	)
+	(fp_line
+		(start 6.5 -2)
+		(end -6 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5bb9af1-2b7b-48de-9ebb-ec465ae888c7")
+	)
+	(fp_line
+		(start 6.5 2)
+		(end 6.5 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "980873d5-a4c6-4896-8673-59b39dffbad0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "83bf2cba-ed37-4c58-8bf4-a911aca4f952")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b539798e-2784-447e-83a1-4c406fc64e01")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 -1.016)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "26e8524d-6053-430f-b898-8a885fa927f8")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 1.016)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b9aeb75f-c69f-4ff5-8b9a-03f14b896814")
+	)
+	(pad "1" connect circle
+		(at -3.81 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "da3a5d70-c707-4898-8158-8a7f6440356d")
+	)
+	(pad "2" connect circle
+		(at -2.54 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2e890f2d-d086-4ff9-8283-08bfd6c01409")
+	)
+	(pad "3" connect circle
+		(at -1.27 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "cc20a813-bea3-42b4-a556-db1f519b6932")
+	)
+	(pad "4" connect circle
+		(at 0 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dad03d53-b787-472a-be87-fb37a41ebfb9")
+	)
+	(pad "5" connect circle
+		(at 1.27 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "060286c2-7700-4151-90ee-cfef2818e63d")
+	)
+	(pad "6" connect circle
+		(at 2.54 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6eace7e6-a806-4cbe-93be-0656299a1828")
+	)
+	(pad "7" connect circle
+		(at 3.81 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "89a7c4e6-cecb-47b1-ba10-39d82febedd2")
+	)
+	(pad "8" connect circle
+		(at 3.81 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ae453e58-cbaf-4674-9828-939fb017fe8f")
+	)
+	(pad "9" connect circle
+		(at 2.54 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "abe23076-fb0b-4a8a-93aa-d26015b7164b")
+	)
+	(pad "10" connect circle
+		(at 1.27 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dc2e5d5b-daa2-47e4-8320-5555841076b2")
+	)
+	(pad "11" connect circle
+		(at 0 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8312fc6f-02b4-4a3f-853b-e417673d8c5f")
+	)
+	(pad "12" connect circle
+		(at -1.27 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6fc4a8e0-7fab-416c-a324-a9bbe487bce2")
+	)
+	(pad "13" connect circle
+		(at -2.54 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f23b2b11-965d-446d-b56b-5c3236711921")
+	)
+	(pad "14" connect circle
+		(at -3.81 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9ff0092d-b48c-4a45-8bc4-1c22ab811482")
+	)
+	(embedded_fonts no)
+)

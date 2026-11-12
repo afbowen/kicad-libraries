@@ -3,21 +3,21 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at -0.605 -3.285 0)
+	(property "Reference" "F1"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "0524f550-403e-4016-b16d-ae7eb20ffba7")
+		(uuid "4f338a38-916e-4550-acc7-f4cc32765c9a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.64 0.64)
+				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" "FUSC6226X310N"
-		(at 4.475 3.285 0)
+	(property "Value" "25A"
+		(at 4.475 3.285 180)
 		(layer "F.Fab")
-		(uuid "30d55f49-fb7b-4ff5-8bd6-b373a8839dc7")
+		(uuid "07189d48-fec5-4c24-abb2-902064eae1e4")
 		(effects
 			(font
 				(size 1 1)
@@ -26,10 +26,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f033fc96-8114-417c-a000-0e516cd11944")
+		(uuid "a7224bc5-fd33-45a1-8d90-3ad3d845fc11")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,11 +37,11 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "SMD Fuse (25A)"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae92e85c-6594-49f2-ae74-9f4703ea3ae9")
+		(uuid "a6507c7a-a3e4-4de3-b168-ae4be45fa090")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49,10 +49,11 @@
 			)
 		)
 	)
-	(property "MPN" "0ACA-9400-TE"
-		(at 0 0 0)
+	(property "MPN" "BSMD2410C-2250T"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "f9cfe2d7-9ac4-42f1-879f-0efa97850928")
+		(hide yes)
+		(uuid "7e53c813-9c7c-4622-a188-b2d3533f0312")
 		(effects
 			(font
 				(size 1 1)
@@ -60,10 +61,11 @@
 			)
 		)
 	)
-	(property "Mfr" "Bel Fuse"
-		(at 0 0 0)
+	(property "Mfr" "BHFUSE"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "c93b669a-ea16-4e21-a8bf-82ee8604b183")
+		(hide yes)
+		(uuid "05698f07-ac51-4803-9e4a-97bbe2e95073")
 		(effects
 			(font
 				(size 1 1)
@@ -71,10 +73,11 @@
 			)
 		)
 	)
-	(property "JLCPCB_PN" "C3162788"
-		(at 0 0 0)
+	(property "JLCPCB_PN" "C49305069"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "95df987d-ed26-443d-a7bb-44cdd2c12a74")
+		(hide yes)
+		(uuid "71f2b769-675a-4cb4-b6bf-938bbccfee51")
 		(effects
 			(font
 				(size 1 1)
@@ -82,10 +85,11 @@
 			)
 		)
 	)
-	(property "Package" "2-SMD"
-		(at 0 0 0)
+	(property "Package" "2410"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "c7b416b4-4eed-4202-bc7e-e58574d88f33")
+		(hide yes)
+		(uuid "a849c1e9-af14-4774-b5ea-087dc61c04ba")
 		(effects
 			(font
 				(size 1 1)
@@ -93,10 +97,11 @@
 			)
 		)
 	)
-	(property "Voltage" "63V"
-		(at 0 0 0)
+	(property "Voltage" "250V"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "4784bb19-fba2-4bff-8923-ecd884ffddeb")
+		(hide yes)
+		(uuid "3f5bf729-7b09-46e0-8660-5bb0a014bc54")
 		(effects
 			(font
 				(size 1 1)
@@ -104,14 +109,54 @@
 			)
 		)
 	)
-	(property "Current" "40A"
-		(at 0 0 0)
+	(property "Current" "25A"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "a364951f-7098-4094-9e33-084e359d199a")
+		(hide yes)
+		(uuid "c54c725f-4409-476c-9775-906d337d9def")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+		)
+	)
+	(property "Max_Temp" "125℃"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e7bf6a4-8ee5-4189-9e9f-212e16126c9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_S3.3" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1656188b-49d8-41c0-9fc1-14f4a7c11ad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "KLC_S4.1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3da17f6-9731-4ad9-9892-68be752de575")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -124,7 +169,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a621933e-8d14-45c0-a94f-5cf65f0a3b85")
+		(uuid "cf5811a3-abaf-4205-b4da-b16ec92d612a")
 	)
 	(fp_line
 		(start -0.945 1.3)
@@ -134,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aca41b18-95fb-4d3b-adfe-c65d53406e27")
+		(uuid "6ee76df7-03c3-4f11-9830-e0235df08cc2")
 	)
 	(fp_line
 		(start -3.955 -1.805)
@@ -144,7 +189,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "95913d33-80aa-4be5-9877-18f06492b37a")
+		(uuid "a9e02c95-1f89-43fd-9c7d-fcf68a88b861")
 	)
 	(fp_line
 		(start -3.955 1.805)
@@ -154,7 +199,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "69edddbd-73c7-4ec5-a229-f48c57d94213")
+		(uuid "79383313-1681-49db-a4e7-f08b177a7134")
 	)
 	(fp_line
 		(start 3.955 -1.805)
@@ -164,7 +209,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cfc0517a-2721-410b-aaaa-753ff3f313a4")
+		(uuid "cec30240-2a4b-49ee-bc44-54aa1e5bd9a6")
 	)
 	(fp_line
 		(start 3.955 1.805)
@@ -174,7 +219,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ccd925f7-2d59-4703-966e-9cb836602f18")
+		(uuid "98e66607-3dac-4f9a-9e7c-57eddcc5ff70")
 	)
 	(fp_line
 		(start -3.1 -1.3)
@@ -184,7 +229,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0bbc9537-c3a1-473b-bc26-d324a8dea797")
+		(uuid "6ca045cb-c297-44f2-aacc-b6494d98fd27")
 	)
 	(fp_line
 		(start -3.1 1.3)
@@ -194,7 +239,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1d636758-bbca-4982-8144-942113cb8257")
+		(uuid "67ff2ba6-571e-46a3-a7d4-ff6545e7507c")
 	)
 	(fp_line
 		(start 3.1 -1.3)
@@ -204,7 +249,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "58798b2e-4366-4d98-827b-10ae74ebd140")
+		(uuid "9ea8f09f-cb8f-412a-9370-d59d0aec67ee")
 	)
 	(fp_line
 		(start 3.1 1.3)
@@ -214,7 +259,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8b2d63d9-266e-421d-8ea4-7bed257766ea")
+		(uuid "669af95f-d1ba-47db-a8a0-12889e73c32c")
 	)
 	(pad "1" smd roundrect
 		(at -2.485 0)
@@ -222,7 +267,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_mask_margin 0.102)
-		(uuid "c63fa6fd-1f50-4e3c-b077-fc9f3a96666a")
+		(uuid "e61a1537-bcc9-4010-ab9e-4ab7d3584c97")
 	)
 	(pad "2" smd roundrect
 		(at 2.485 0)
@@ -230,7 +275,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(solder_mask_margin 0.102)
-		(uuid "c2a1060a-45bb-4776-8a8c-7b4514825b5a")
+		(uuid "ae24277e-dcad-42c5-8614-19f56fe83ef1")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_LIB}/3dmodels/0ACA-9400-TE.stp"
