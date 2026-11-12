@@ -112,7 +112,7 @@
 	(property "Current" "40A"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(hide yes)
+		(hide yes)n
 		(uuid "a364951f-7098-4094-9e33-084e359d199a")
 		(effects
 			(font
