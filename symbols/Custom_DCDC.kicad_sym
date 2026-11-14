@@ -668,7 +668,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -3.048 14.224 0)
+			(at -1.524 17.018 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -678,7 +678,7 @@
 			)
 		)
 		(property "Value" "LMR50410Y3FQDBVRQ1"
-			(at 0.508 7.62 0)
+			(at -0.254 14.224 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -735,7 +735,7 @@
 			)
 		)
 		(property "JLCPCB_PN" "C5219374"
-			(at 0 0 0)
+			(at -3.048 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,59 +761,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "LMR50410Y3FQDBVRQ1_0_1"
-			(polyline
-				(pts
-					(xy -15.24 12.7) (xy -15.24 -7.62)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -15.24 -7.62) (xy 15.24 -7.62)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 12.7) (xy -15.24 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15.24 -7.62) (xy 15.24 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LMR50410Y3FQDBVRQ1_1_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -20.32 10.16 0)
+				(at -17.78 10.16 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -831,7 +792,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 5.08 0)
+				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -849,7 +810,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 10.16 180)
+				(at 17.78 10.16 180)
 				(length 5.08)
 				(name "CB"
 					(effects
@@ -867,7 +828,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 5.08 180)
+				(at 17.78 2.54 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -885,7 +846,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 0 180)
+				(at 17.78 -2.54 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -903,7 +864,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -5.08 180)
+				(at 17.78 -7.62 180)
 				(length 5.08)
 				(name "GND"
 					(effects

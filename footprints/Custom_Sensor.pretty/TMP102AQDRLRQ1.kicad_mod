@@ -5,10 +5,9 @@
 	(layer "F.Cu")
 	(tags "TMP102AQDRLRQ1 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "1cd829d1-37bb-428c-bca7-3177fc696ed4")
 		(effects
 			(font

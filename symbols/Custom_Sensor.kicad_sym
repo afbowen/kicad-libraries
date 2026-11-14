@@ -1614,7 +1614,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 6.604 7.112 0)
 			(effects
 				(font
@@ -4114,57 +4114,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TMP102AQDRLRQ1_0_1"
-			(polyline
-				(pts
-					(xy 5.08 5.08) (xy 5.08 -10.16)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -10.16) (xy 25.4 -10.16)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25.4 5.08) (xy 5.08 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25.4 -10.16) (xy 25.4 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "TMP102AQDRLRQ1_1_1"
+			(rectangle
+				(start 5.08 5.08)
+				(end 25.4 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at 0 2.54 0)
 				(length 5.08)
