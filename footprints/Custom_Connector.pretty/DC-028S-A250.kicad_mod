@@ -1,0 +1,219 @@
+(footprint "DC-028S-A250"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.75 0)
+		(layer "F.SilkS")
+		(uuid "8204b8de-cd29-4c3c-8122-5354915f55a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DC-IN-TH_DC-028S-25A"
+		(at 0 8.75 0)
+		(layer "F.Fab")
+		(uuid "595f7cae-226e-4128-8554-501bec2b6b61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "304363e8-9d1d-4124-b6d1-bf1b5355da77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62ec7544-3f72-4cd8-8ef7-80ec752e9d00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C720580"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88e1e960-67f8-4ade-87b5-6c8dd7148a6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -8.9)
+		(end 5 -8.9)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e20c472-915a-44c0-a3fb-b6a0b0d68591")
+	)
+	(fp_line
+		(start -5 -8.85)
+		(end -5 2.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e26e054-dbda-4574-afce-74df13033624")
+	)
+	(fp_line
+		(start -5 2.75)
+		(end 5 2.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "678768fc-96a2-4fa8-aab1-76026f27d801")
+	)
+	(fp_line
+		(start 5 -8.85)
+		(end 5 2.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c555d876-2e24-41a1-b96b-28140f01abb5")
+	)
+	(fp_circle
+		(center -6.75 -8.9)
+		(end -6.72 -8.9)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a285bd70-cb4a-471d-b754-eec4226b8ed8")
+	)
+	(fp_line
+		(start -5 -8.9)
+		(end 5 -8.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ee2dc73-7ade-4613-b856-a736eb0a6af2")
+	)
+	(fp_line
+		(start -5 2.7)
+		(end -5 -8.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31e9193c-3782-45b7-bb8c-edde77b1c09a")
+	)
+	(fp_line
+		(start 5 -8.9)
+		(end 5 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "198bfe6f-67bd-4893-8e7d-5bf2873a0777")
+	)
+	(fp_line
+		(start 5 2.7)
+		(end -5 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a752a05b-0bb7-4812-89d1-55d7ba00c2b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9031c805-7cc3-4612-acc1-b2ae2cac5ed1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -6.5 -4.75 90)
+		(size 2.8 1.6)
+		(drill oval 1.700022 0.799998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcb60395-23d0-4839-9c94-9490ae39bc09")
+	)
+	(pad "1" thru_hole oval
+		(at 6.5 -4.75 90)
+		(size 2.8 1.6)
+		(drill oval 1.700022 0.799998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f45c6171-0f66-4202-bdf8-fc85ef155388")
+	)
+	(pad "2" thru_hole oval
+		(at 6.3 1.85 90)
+		(size 2.8 1.6)
+		(drill oval 1.700022 0.799998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ab94940-7112-4250-8009-c4c28018c128")
+	)
+	(pad "3" thru_hole oval
+		(at -6.3 1.85 90)
+		(size 2.8 1.6)
+		(drill oval 1.700022 0.799998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1644c2e1-b692-4ebf-bbc5-8cdde3317ebf")
+	)
+	(pad "4" thru_hole circle
+		(at -0.8 4.75)
+		(size 2.5 2.5)
+		(drill 1.599996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc0f3b60-96c6-449b-bf50-487994f9c02b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/DC-028S-A250.step"
+		(offset
+			(xyz 0.1 1.75 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
