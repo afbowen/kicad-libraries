@@ -1,0 +1,234 @@
+(footprint "PTVS30VZ1UPAZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.65 0)
+		(layer "F.SilkS")
+		(uuid "67b66500-2ff7-440d-bb3c-71b112262eaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN2020-3_L2.0-W2.0-P0.65-BR-1"
+		(at 0 4.65 0)
+		(layer "F.Fab")
+		(uuid "8b37c04f-9f0f-4278-bd29-78470ebe924f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f99e14a-9b1f-4733-b2f1-794bd32177e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffe62368-29ed-4f9d-a649-c7bee10ddf9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C22421832"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91249a2c-da5c-46ae-ac06-054f4f6435b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.42 -1.1)
+		(end -1.42 -0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a5a582b-b758-465b-8229-be8fba1fb28f")
+	)
+	(fp_line
+		(start -1.42 -1.1)
+		(end 0.78 -1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9930d8f4-bb2e-4788-a983-c0313898bd66")
+	)
+	(fp_line
+		(start -1.42 1.1)
+		(end -1.42 0.39)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52a434ff-73a2-4961-bf87-689b9438255c")
+	)
+	(fp_line
+		(start 0.78 -0.27)
+		(end 0.78 0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a74f7f3f-6904-4a0a-869f-fe1e18712fe7")
+	)
+	(fp_line
+		(start 0.78 1.1)
+		(end -1.42 1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "101063a0-1e82-4d6d-b50a-82180cb278e3")
+	)
+	(fp_circle
+		(center 0.72 1)
+		(end 0.75 1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7b67c750-fc38-4df9-8c8a-bf4a86b148f0")
+	)
+	(fp_circle
+		(center 1.23 0.65)
+		(end 1.38 0.65)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f505ac4b-776d-46f0-b9a2-691fa8941410")
+	)
+	(fp_line
+		(start -1.28 -1)
+		(end 0.72 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd800ec2-1615-454e-b728-cc9818bf038a")
+	)
+	(fp_line
+		(start -1.28 1)
+		(end -1.28 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "acc95967-bc32-4cfe-ae17-68ac0105d350")
+	)
+	(fp_line
+		(start 0.72 -1)
+		(end 0.72 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2e36bee-8b5f-49d8-bed3-fce8c27bd2a6")
+	)
+	(fp_line
+		(start 0.72 1)
+		(end -1.28 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dc2d976-5ba5-418b-8c6d-b8dedefbfcfb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8a569794-6dcb-4d3d-98a2-1f7f9d7cb2fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.65)
+		(size 0.66 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20d02024-a117-4341-affb-f7f5832ecefa")
+	)
+	(pad "2" smd rect
+		(at 0.65 -0.65)
+		(size 0.66 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02ae3440-6fae-43a5-849a-6127e2d3eaec")
+	)
+	(pad "3" smd custom
+		(at -0.65 0)
+		(size 0.005 0.005)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.885038 -0.210134) (xy -0.345034 -0.210134) (xy -0.345034 -0.84013) (xy 0.684936 -0.84013)
+					(xy 0.684936 0.839876) (xy -0.345034 0.839876) (xy -0.345034 0.199873) (xy -0.885038 0.199873)
+					(xy -0.885038 -0.210134)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "b69880d5-a20d-4309-b719-6ce6831789aa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIB}/3dmodels/PTVS30VZ1UPAZ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
