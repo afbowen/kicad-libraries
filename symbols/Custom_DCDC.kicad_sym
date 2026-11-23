@@ -967,7 +967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "C2864746"
+		(property "Package" "SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
